@@ -1,9 +1,6 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
+
 <!doctype html>
-<html lang="zxx">
+<html lang="ES">
 
 <head>
   <!-- Required meta tags -->
@@ -11,22 +8,29 @@ Author URL: http://w3layouts.com
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="keywords"
     content="Digebiz Responsive web template, Bootstrap Web Templates" />
-  <title>Digebiz Corporate Category Bootstrap Responsive Web Template | Home :: W3layouts</title>
+  <title>Agencia freelancer de desarrollo web ::EKODEV COMPANY</title>
   <link href="//fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600;700&display=swap"
     rel="stylesheet">
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </head>
 
 <body>
-
+<style>
+  #ekodevlogo img{
+    height: 90px;
+  }
+</style>
   <!--header-->
   <header id="site-header" class="fixed-top">
     <!-- //top header -->
     <div class="container">
       <nav class="navbar navbar-expand-lg stroke px-0 py-lg-0">
-        <h1><a class="navbar-brand" href="index.html">
-            Dige<span class="sub-logo">b</span>iz</span>
+        <h1 id="ekodevlogo">
+          <a class="navbar-brand" href="index.html">
+          <img src="./assets/images/companyekodev.png" alt="">
           </a></h1>
         <!-- if logo is image enable this   
     <a class="navbar-brand" href="#index.html">
@@ -38,24 +42,32 @@ Author URL: http://w3layouts.com
           <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
           <span class="navbar-toggler-icon fa icon-close fa-times"></span>
         </button>
-
+        <style>
+          #active a{
+            font-weight: 1000;
+            text-decoration: underline;
+            
+          }
+        </style>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mx-lg-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <ul class="navbar-nav mx-lg-auto" id="navmovil">
+            <li class="nav-item" id="active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="about.html">Ekodev</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
+              <a class="nav-link" href="services.html">Servicios</a>
             </li>
-           
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="services.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contactos</a>
             </li>
             <!--/search-right-->
-            <li class="nav-item search-right ml-lg-3">
+            <li class="nav-item search-right ml-lg-2">
               <!-- /header-top-inn-->
               <div class="menu-overlay-left">
                 <div class="two-pops">
@@ -105,8 +117,8 @@ Author URL: http://w3layouts.com
           </ul>
           <!--/right-btn-->
           <div class="top-righthny-buttton">
-            <a class="btn btn-style btn-white mr-lg-5" href="contact.html">
-              Get In Touch <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
+            <a class="btn btn-danger mr-lg-5" href="contact.html">
+              Asistente eko <img src="/assets/images/asistente.png" alt=""> </a>
           </div>
           <!--/right-btn-->
         </div>
@@ -132,20 +144,105 @@ Author URL: http://w3layouts.com
   <!-- banner section -->
   <section id="home" class="w3l-banner py-5">
     <div class="container py-lg-5 py-md-4 mt-lg-0 mt-md-4">
+
+
       <div class="w3l-banner-content py-lg-5 py-4 mt-md-4">
+
         <div class="pt-md-5 pt-lg-4 mt-4 align-items-lg-center">
-          <div class="bannerhny-info">
+                  <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="bannerhny-info" data-swiper-autoplay="2000">
+<!--                 <h6 class="title-subhny mb-3">EKODEV COMPANY.</h6> -->
+                <h3 class="">“Ofrecemos nuestros servicios tanto a pequeñas y a medianas empresas, <br> al igual que a instituciones gubernamentales y a profesionales o empresarios independientes.".</h3>
+                <a class="btn btn-style btn-outline-light mt-sm-5 mt-4" href="about.html">
+                  Conózcanos <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
+
+              </div>
+            </div>
+            <div class="swiper-slide" data-swiper-autoplay="2000">
+              <div class="bannerhny-info">
+              <!--   <h6 class="title-subhny mb-3">NUESTROS SERVICIOS.</h6> -->
+                <h3 class="">“Ofrecemos nuestros servicios tanto a pequeñas y a medianas empresas, <br> al igual que a instituciones gubernamentales y a profesionales o empresarios independientes.".</h3>
+                <a class="btn btn-style btn-outline-light mt-sm-5 mt-4" href="about.html">
+                 Descubre nuestros servicios <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
+
+              </div>
+            </div>
+            <div class="swiper-slide" data-swiper-autoplay="2000">
+              <div class="bannerhny-info">
+               <!--  <h6 class="title-subhny mb-3">Digital Agency.</h6> -->
+                <h3 class="">“Ofrecemos nuestros servicios tanto a pequeñas y a medianas empresas, <br> al igual que a instituciones gubernamentales y a profesionales o empresarios independientes.".</h3>
+                <a class="btn btn-style btn-outline-light mt-sm-5 mt-4" href="about.html">
+                 Casos de éxito <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
+
+              </div>
+            </div>
+          
+          </div>
+
+          <!-- If we need navigation buttons -->
+        <!--   <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        -->
+
+        </div>
+
+         <!--  <div class="bannerhny-info">
             <h6 class="title-subhny mb-3">Digital Agency.</h6>
             <h3 class="">Why wait ? start your own business.</h3>
             <a class="btn btn-style btn-outline-light mt-sm-5 mt-4" href="about.html">
               Read More <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
 
-          </div>
+          </div> -->
         </div>
+         
+
       </div>
+
+
     </div>
   </section>
   <!-- //banner section -->
+
+ 
+<style>
+  .swiper {
+  width: 100%;
+  height: 40vh;
+  overflow: hidden;
+/*   margin-bottom: 100px;
+  position: relative; */
+}
+@media only screen and (max-width: 768px){
+  .swiper {
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+  margin-bottom: 100px;
+  
+  
+}
+.swiper-slide .bannerhny-info{
+  margin-top: 100px;
+}
+
+}
+@media only screen and (max-width: 600px){
+  .swiper {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin-bottom: 0px;
+}.swiper-slide .bannerhny-info{
+  margin-top: -100px;
+}
+
+}
+</style>
   <!--/w3l-clients-->
   <section class="w3l-clients" id="clients">
     <div class="container">
@@ -817,6 +914,62 @@ Author URL: http://w3layouts.com
         }
       });
     });
+
+    /*  */
+    var mySwiper = new Swiper ('.swiper', 
+	{
+    speed:3000,
+		direction: 'horizontal',
+		navigation: 
+		{
+		  nextEl: '.swiper-button-next',
+		  prevEl: '.swiper-button-prev',
+		},
+		pagination: 
+		{
+			el: '.swiper-pagination',
+			dynamicBullets: true,
+		},
+		zoom: true,
+		keyboard: 
+		{
+			enabled: true,
+			onlyInViewport: false,
+		},
+		mousewheel: 
+		{
+			invert: true,
+		},
+    autoplay: 
+    {
+      delay: 2000,
+    },
+    loop: true,
+	}); 
+/*     const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+  autoplay: {
+    delay: 5000,
+  },
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+}); */
   </script>
   <!--//MENU-JS-->
   <script src="assets/js/bootstrap.min.js"></script>
