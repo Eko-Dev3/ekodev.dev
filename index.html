@@ -15,8 +15,31 @@
   <link rel="stylesheet" href="assets/css/style-starter.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-</head>
 
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.0/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+</head>
+<script>
+  $('[data-fancybox]').fancybox({
+  // Options will go here
+  buttons : [
+    'close'
+  ],
+  wheel : false,
+  transitionEffect: "slide",
+   // thumbs          : false,
+  // hash            : false,
+  loop            : true,
+  // keyboard        : true,
+  toolbar         : false,
+  // animationEffect : false,
+  // arrows          : true,
+  clickContent    : false
+});
+</script>
 <body>
 <style>
   #ekodevlogo img{
@@ -143,105 +166,88 @@
   <!--/header-->
   <!-- banner section -->
   <section id="home" class="w3l-banner py-5">
-    <div class="container py-lg-5 py-md-4 mt-lg-0 mt-md-4">
+    <div class="container py-lg-5 py-md-4 mt-lg-0 mt-md-4 swiper mySwiper">
 
+      <div class="w3l-banner-content py-lg-5 py-4 mt-md-4 swiper-wrapper">
 
-      <div class="w3l-banner-content py-lg-5 py-4 mt-md-4">
-
-        <div class="pt-md-5 pt-lg-4 mt-4 align-items-lg-center">
+        <div class="pt-md-5 pt-lg-4 mt-4 align-items-lg-center swiper-slide">
                   <!-- Slider main container -->
-        <div class="swiper">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-              <div class="bannerhny-info" data-swiper-autoplay="2000">
-<!--                 <h6 class="title-subhny mb-3">EKODEV COMPANY.</h6> -->
-                <h3 class="">“Ofrecemos nuestros servicios tanto a pequeñas y a medianas empresas, <br> al igual que a instituciones gubernamentales y a profesionales o empresarios independientes.".</h3>
-                <a class="btn btn-style btn-outline-light mt-sm-5 mt-4" href="about.html">
-                  Conózcanos <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
-
-              </div>
-            </div>
-            <div class="swiper-slide" data-swiper-autoplay="2000">
-              <div class="bannerhny-info">
-              <!--   <h6 class="title-subhny mb-3">NUESTROS SERVICIOS.</h6> -->
-                <h3 class="">“Ofrecemos nuestros servicios tanto a pequeñas y a medianas empresas, <br> al igual que a instituciones gubernamentales y a profesionales o empresarios independientes.".</h3>
-                <a class="btn btn-style btn-outline-light mt-sm-5 mt-4" href="about.html">
-                 Descubre nuestros servicios <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
-
-              </div>
-            </div>
-            <div class="swiper-slide" data-swiper-autoplay="2000">
-              <div class="bannerhny-info">
-               <!--  <h6 class="title-subhny mb-3">Digital Agency.</h6> -->
-                <h3 class="">“Ofrecemos nuestros servicios tanto a pequeñas y a medianas empresas, <br> al igual que a instituciones gubernamentales y a profesionales o empresarios independientes.".</h3>
-                <a class="btn btn-style btn-outline-light mt-sm-5 mt-4" href="about.html">
-                 Casos de éxito <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
-
-              </div>
-            </div>
-          
-          </div>
-
-          <!-- If we need navigation buttons -->
-        <!--   <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        -->
-
+                  <div class="bannerhny-info">
+                    <h3 class="">“Ofrecemos nuestros servicios tanto a pequeñas y a medianas empresas, <br> al igual que a instituciones gubernamentales y a profesionales o empresarios independientes.".</h3>
+                    <a class="btn btn-style btn-outline-light mt-sm-5 mt-4" href="about.html">
+                     Casos de éxito <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
+                  </div>
         </div>
-
-         <!--  <div class="bannerhny-info">
-            <h6 class="title-subhny mb-3">Digital Agency.</h6>
-            <h3 class="">Why wait ? start your own business.</h3>
+        <!--  -->
+        <div class="pt-md-5 pt-lg-4 mt-4 align-items-lg-center swiper-slide">
+          <!-- Slider main container -->
+          <div class="bannerhny-info">
+            <h3 class="">“Ofrecemos nuestros servicios tanto a pequeñas y a medianas empresas, <br> al igual que a instituciones gubernamentales y a profesionales o empresarios independientes.".</h3>
             <a class="btn btn-style btn-outline-light mt-sm-5 mt-4" href="about.html">
-              Read More <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
-
-          </div> -->
+             Casos de éxito <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
+          </div>
         </div>
          
-
       </div>
 
 
     </div>
   </section>
+
+
+
+  <!--  -->
   <!-- //banner section -->
 
  
 <style>
   .swiper {
-  width: 100%;
-  height: 40vh;
+  width: 70%;
+  height: 80vh;
   overflow: hidden;
-/*   margin-bottom: 100px;
-  position: relative; */
+
 }
+.swiper-slide {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 768px){
   .swiper {
   width: 100%;
-  height: 70vh;
+  height: 20vh;
   overflow: hidden;
   margin-bottom: 100px;
-  
-  
 }
 .swiper-slide .bannerhny-info{
   margin-top: 100px;
+}
+.swiper-wrapper{
+  margin-top: 100px;
+  padding: 10px;
 }
 
 }
 @media only screen and (max-width: 600px){
   .swiper {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   overflow: hidden;
   margin-bottom: 0px;
 }.swiper-slide .bannerhny-info{
   margin-top: -100px;
 }
-
+.swiper-wrapper{
+  margin-top: 100px;
 }
+
+}  
+
+
+    
+
+    
 </style>
   <!--/w3l-clients-->
   <section class="w3l-clients" id="clients">
@@ -278,29 +284,121 @@
     <div class="midd-w3 py-5">
       <div class="container py-lg-5 py-md-4 py-2">
         <div class="title-content text-left">
-          <h6 class="title-subhny">Who We Are</h6>
-          <h3 class="title-w3l mb-sm-5 mb-4 pb-lg-2">What We Offer To Highest <br> Quality Services</h3>
+         <!--  <h3 class="title-subhny">EKODEV COMPANY</h3> -->
+          <h3 class="title-w3l mb-sm-5 mb-4 pb-lg-2">Soluciones digitales para  <br> el crecimiento de su emprendimiento</h3>
         </div>
+        <style>
+          .payereko{
+            font-family: 40px;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            background: #d90000;
+            color: white;
+            width: 50px;
+            height: 50px;
+          }
+          .presentacion{
+            background-position: center;
+            background-size: cover;
+            height: 60vh;
+            width: 100%;
+          }
+          .presentacionservicios{
+            background-position: center;
+            background-size: cover;
+            height: 40vh;
+            width: 100%;
+          }
+          .presentacionservicios .btn-rep{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            outline: none;
+            background: #f64747;
+            border: 0;
+            position: absolute;
+            top: 45%;
+            left: 45%;
+          }
+          .btn-rep {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            outline: none;
+            background: #f64747;
+            border: 0;
+            position: absolute;
+            top: 40%;
+            left: 40%;
+          }
+
+          .btn-rep::before {
+            content: "";
+            position: absolute;
+            z-index: 10;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 50%;
+            background: #1f3a93;
+            transform: scale(0);
+            transform-origin: 83% 86%;
+            transition-property: transform;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-out;
+          }
+
+          .btn-rep.active::before {
+            transition-timing-function: ease;
+            transform: scale(1);
+          }
+
+          .btn-rep .play {
+            width: 65px;
+            height: 65px;
+            background: #fff;
+            margin-left: 15px;
+            z-index: 100;
+            clip-path: polygon(0 0, 80% 48%, 0 100%, 0% 100%);
+            transition: clip-path 0.5s ease;
+            transition-delay: 0.4s;
+          }
+
+          
+
+        </style>
         <div class="row">
           <div class="col-lg-5 left-wthree-img pr-lg-4">
-            <div class="imgw3l-ab mb-md-5 mb-3">
-              <img src="assets/images/ab1.jpg" alt="" class="radius-image img-fluid">
+            <div class="mb-md-5 mb-3 presentacion" style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/images/about.webp);">
+              
+              <a data-fancybox href="https://youtu.be/i5dkP9CWLMQ">
+               
+                  <button class="btn-rep">
+                    <span class="fa fa-play-circle text-white"></span>
+                    <span class="small-box"></span>
+                  </button>
+              
+               <!--  <i  class="fa fa-play-circle border p-2 rounded-pill fa-5 payereko"></i> -->
+                <img  src="" alt="" class="radius-image img-fluid">
+              </a>
+             
             </div>
           </div>
           <div class="col-lg-7 pl-lg-5 align-self mt-lg-0 mt-4">
-            <h5 class="color-3 mb-3 pr-lg-5">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-              ultrices in ligula. Semper at tempufddfel.Pellen tesque libero ut justo,
-              ultrices in ligula.
+            <h5 class="color-3 mb-3 pr-lg-5"> EKODEV COMPANY una agencia digital e independiente encargado del desarrollo de software web y otros servicios informaticos.
+
+             
+                
             </h5>
-            <p class="pr-lg-5">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-              ultrices in ligula. Semper at tempufddfel. Learn more about our work!
-              Lorem ipsum viverra feugiat.consectetur adipisicing dolor et amet.
+            <p class="pr-lg-5">En nuestra agencia, te ofrecemos los servicios de diseño y desarrollo total de su sitio web usando las nuevas tecnologías seguras y potentes en dicho mercado. <br>
+              Como expertos en materia, te escuchamos aténtamente antes de iniciar su proyecto y te hacemos sugerencias sobre funcionalidades que creemos que vendrían muy bien para su sitio web también y a través de nuestras plantillas, le hacemos propuestas de sitios webs ya desarrollados y usted tendrá la opción de elegir una plantilla, o iniciar uno diferente.
+              
+              Te creamos sitios webs adaptables a cualquier dispositivo inteligente ya sea móvil, PC, etc....
             </p>
-            <p class="mt-4 pr-lg-5">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.
-              Semper at
-              tempufddfel. Learn more about our work! Lorem ipsum viverra feugiat.consectetur adipisicing dolor et amet.
-            </p>
-            <a href="about.html" class="btn btn-style btn-primary mt-lg-5 mt-4">Read More <span
+           
+            <a href="about.html" class="btn btn-style btn-primary mt-lg-5 mt-4">Seguir leyendo <span
                 class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
           </div>
 
@@ -314,24 +412,31 @@
   <section class="home-services py-5">
     <div class="container py-md-5 py-2">
       <div class="title-content text-left">
-        <h6 class="title-subhny">What We Do</h6>
-        <h3 class="title-w3l mb-sm-5 mb-4 pb-lg-2">We are more than just
-          <br>a digital agency.</h3>
+        <h6 class="title-subhny">LO QUE HACEMOS</h6>
+        <h3 class="title-w3l mb-sm-5 mb-4 pb-lg-2">Somos más que
+          
+          <br>una agencia digital.</h3>
       </div>
       <div class="row">
         <div class="col-lg-5">
-          <h5 class="color-3 mb-3 pr-lg-5">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-            ultrices in ligula. Semper at tempufddfel.Pellen tesque libero ut justo,
-            ultrices in ligula.
+          <h5 class="color-3 mb-3 pr-lg-5">EKODEV “como agencia Independiente, ofrecemos nuestros servicios tanto a pequeñas y medianas empresas al igual que a instituciones gubernamentales y a profesionales o empresarios independientes."
           </h5>
-          <p class="mt-4 pr-lg-5">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper
-            at
-            tempufddfel. Learn more about our work.
-          </p>
-          <p class="mt-4 pr-lg-5">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.
-            tempufddfel.consectetur adipisicing dolor et amet.
-          </p>
-          <a href="about.html" class="btn btn-style btn-primary mt-lg-5 mt-4">Read More <span
+         
+          <div class="mb-md-5 mb-3 presentacionservicios" style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/images/about.webp);">
+              
+            <a data-fancybox href="https://youtu.be/i5dkP9CWLMQ">
+             
+                <button class="btn-rep">
+                  <span class="fa fa-play-circle text-white"></span>
+                  <span class="small-box"></span>
+                </button>
+            
+             <!--  <i  class="fa fa-play-circle border p-2 rounded-pill fa-5 payereko"></i> -->
+              <img  src="" alt="" class="radius-image img-fluid">
+            </a>
+           
+          </div>
+          <a href="about.html" class="btn btn-style btn-primary mt-lg-5 mt-4">Ver servicios <span
               class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
         </div>
         <div class="col-lg-7 left-wthree-img pl-lg-4 mt-lg-0 mt-5">
@@ -340,10 +445,12 @@
             <div class="box-wrap col-md-6 col-sm-12">
               <div class="box-wrap-grid text-left">
                 <div class="icon mb-3">
-                  <span class="fa fa-lightbulb-o"></span>
+                  <span class="">
+                    <img src="assets/images/desarrolloweb.png" alt="">
+                  </span>
                 </div>
                 <div class="info">
-                  <h4><a href="#url">Idea & Analysis </a></h4>
+                  <h4><a href="#url">DISEÑO Y DESARROLLO WEB </a></h4>
                 </div>
                 <p class="mt-2">Lorem ipsum dolor sit amet consectetur ipsum elit.</p>
               </div>
@@ -351,10 +458,12 @@
             <div class="box-wrap col-md-6 col-sm-12">
               <div class="box-wrap-grid text-left">
                 <div class="icon mb-3">
-                  <span class="fa fa-paint-brush"></span>
+                  <span class="">
+                    <img src="assets/images/disenadorgrafico.png" alt="">
+                  </span>
                 </div>
                 <div class="info">
-                  <h4><a href="#url">Designing</a></h4>
+                  <h4><a href="#url">DISEÑO GRAFICO</a></h4>
                 </div>
                 <p class="mt-2">Lorem ipsum dolor sit amet consectetur ipsum elit.</p>
               </div>
@@ -362,10 +471,12 @@
             <div class="box-wrap col-md-6 col-sm-12">
               <div class="box-wrap-grid text-left">
                 <div class="icon mb-3">
-                  <span class="fa fa-line-chart"></span>
+                  <span class="">
+                    <img src="assets/images/soporte-tecnico-administracion.png" alt="">
+                  </span>
                 </div>
                 <div class="info">
-                  <h4><a href="#url">Development</a></h4>
+                  <h4><a href="#url">ADMINISTRACION WEB</a></h4>
                 </div>
                 <p class="mt-2">Lorem ipsum dolor sit amet consectetur ipsum elit.</p>
               </div>
@@ -373,10 +484,12 @@
             <div class="box-wrap col-md-6 col-sm-12">
               <div class="box-wrap-grid text-left">
                 <div class="icon mb-3">
-                  <span class="fa fa-bullhorn"></span>
+                  <span class="">
+                    <img src="assets/images/marketing.png" alt="">
+                  </span>
                 </div>
                 <div class="info">
-                  <h4><a href="#url">Online marketing</a></h4>
+                  <h4><a href="#url">MARKETING DIGITAL </a></h4>
                 </div>
                 <p class="mt-2">Lorem ipsum dolor sit amet consectetur ipsum elit. </p>
               </div>
@@ -391,8 +504,9 @@
   <section class="w3l-content-2 py-5">
     <div class="container py-md-5 py-2">
       <div class="title-content text-left">
-        <h6 class="title-subhny">Why Us</h6>
-        <h3 class="title-w3l mb-sm-5 mb-4 pb-lg-2">Our Working Process To Help <br>Your Boost Your Business</h3>
+        <h6 class="title-subhny">POR QUE ELEGIRNOS?</h6>
+        <h3 class="title-w3l mb-sm-5 mb-4 pb-lg-2">Lo que nos caracteriza</h3>
+       
       </div>
       <div class="row whybox-wrap">
         <div class="col-lg-6 whybox-wrap-left pr-lg-5 align-self">
@@ -400,10 +514,12 @@
             <div class="whybox-wrap-grid mb-lg-5 mb-4">
               <div class="whybox-wrap-grid-inf">
                 <div class="icon">
-                  <span class="fa fa-thumbs-up"></span>
+                  <span class="">
+                    <img src="./assets/images/estrategia.png" alt="">
+                  </span>
                 </div>
                 <div class="info">
-                  <h4><a href="#url"> Perfect Strategy</a></h4>
+                  <h4><a href="#url"> Estretegia perfecta de trabajo</a></h4>
                 </div>
               </div>
               <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit. </p>
@@ -411,10 +527,12 @@
             <div class="whybox-wrap-grid mb-lg-5 mb-4">
               <div class="whybox-wrap-grid-inf">
                 <div class="icon">
-                  <span class="fa fa-lightbulb-o"></span>
+                  <span class="">
+                    <img src="./assets/images/ideas.png" alt="">
+                  </span>
                 </div>
                 <div class="info">
-                  <h4><a href="#url">Innovative Ideas</a></h4>
+                  <h4><a href="#url">Ideas innovadoras</a></h4>
                 </div>
               </div>
               <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit. </p>
@@ -422,10 +540,12 @@
             <div class="whybox-wrap-grid mb-lg-5 mb-4">
               <div class="whybox-wrap-grid-inf">
                 <div class="icon">
-                  <span class="fa fa-paper-plane"></span>
+                  <span class="">
+                    <img src="./assets/images/soluciones.png" alt="">
+                  </span>
                 </div>
                 <div class="info">
-                  <h4><a href="#url"> Effective Solutions</a></h4>
+                  <h4><a href="#url"> Soluciones efectivas</a></h4>
                 </div>
               </div>
               <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit. </p>
@@ -433,20 +553,27 @@
             <div class="whybox-wrap-grid mb-lg-5 mb-4">
               <div class="whybox-wrap-grid-inf">
                 <div class="icon">
-                  <span class="fa fa-laptop"></span>
+                  <span class="">
+                    <img src="./assets/images/002-clientes-1.png" alt="">
+                  </span>
                 </div>
                 <div class="info">
-                  <h4><a href="#url"> Testing & Lunching</a></h4>
+                  <h4><a href="#url"> Garantías para nuestros clientes
+                  </a></h4>
                 </div>
               </div>
               <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit. </p>
             </div>
+            
           </div>
         </div>
+        
         <div class="col-lg-6 whybox-wrap-img pl-lg-5 mt-lg-0 mt-4">
           <div class="imgw3l-ab mb-md-5 mb-3">
-            <img src="assets/images/ab2.jpg" alt="" class="radius-image img-fluid">
+            <img src="assets/images/elijanos.webp" alt="" class="radius-image img-fluid">
           </div>
+          <a href="about.html" class="btn btn-style btn-primary mt-lg-5 mt-4">Saber mas <span
+            class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
         </div>
 
       </div>
@@ -916,7 +1043,7 @@
     });
 
     /*  */
-    var mySwiper = new Swiper ('.swiper', 
+    var mySwiper = new Swiper ('.mySwiper', 
 	{
     speed:3000,
 		direction: 'horizontal',
@@ -970,10 +1097,11 @@
     el: '.swiper-scrollbar',
   },
 }); */
+
   </script>
   <!--//MENU-JS-->
   <script src="assets/js/bootstrap.min.js"></script>
-
+  
 </body>
 
 </html>

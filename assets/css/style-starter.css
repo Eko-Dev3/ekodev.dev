@@ -14283,7 +14283,7 @@ a.link-style1 {
   line-height: 30px;
   letter-spacing: 1px;
   color: var(--red-background);
-  display: NONE;
+ /*  display: NONE; */
 }
 
 .title-subhny span {
@@ -14840,6 +14840,7 @@ ul.social-icons-top a:hover span.fa {
   font-size: 35px;
   
   letter-spacing: -1px;
+ 
 }
 
 @media (max-width: 1080px) {
@@ -14852,8 +14853,9 @@ ul.social-icons-top a:hover span.fa {
 
 @media (max-width:992px) {
   .w3l-banner-content h3 {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 62px;
+    margin-top: 100px;
   }
  
 
@@ -14861,8 +14863,9 @@ ul.social-icons-top a:hover span.fa {
 
 @media (max-width:767px) {
   .w3l-banner-content h3 {
-    font-size: 28px;
-    line-height: 48px;
+    font-size: 23px;
+    line-height: 28px;
+    margin-top: 100px;
   }
 
   .w3l-banner {
@@ -14878,8 +14881,9 @@ ul.social-icons-top a:hover span.fa {
 
 @media (max-width:480px) {
   .w3l-banner-content h3 {
-    font-size: 34px;
+    font-size: 24px;
     line-height: 40px;
+    margin-top: 100px;
   }
   .w3l-banner {
     min-height: 400px;
