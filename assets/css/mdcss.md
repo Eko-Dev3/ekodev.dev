@@ -38,6 +38,7 @@ Author URL: http://w3layouts.com
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --red-background:#d90000;
 }
 
 *,
@@ -4660,12 +4661,12 @@ input[type="button"].btn-block {
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
+  content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
 }
 
 @media (max-width: 575.98px) {
-
   .navbar-expand-sm>.container,
   .navbar-expand-sm>.container-fluid,
   .navbar-expand-sm>.container-sm,
@@ -11179,1740 +11180,1740 @@ a.text-dark:focus {
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 .fa-glass:before {
-  content: "ï€€";
+  content: "";
 }
 
 .fa-music:before {
-  content: "ï€";
+  content: "";
 }
 
 .fa-search:before {
-  content: "ï€‚";
+  content: "";
 }
 
 .fa-envelope-o:before {
-  content: "ï€ƒ";
+  content: "";
 }
 
 .fa-heart:before {
-  content: "ï€„";
+  content: "";
 }
 
 .fa-star:before {
-  content: "ï€…";
+  content: "";
 }
 
 .fa-star-o:before {
-  content: "ï€†";
+  content: "";
 }
 
 .fa-user:before {
-  content: "ï€‡";
+  content: "";
 }
 
 .fa-film:before {
-  content: "ï€ˆ";
+  content: "";
 }
 
 .fa-th-large:before {
-  content: "ï€‰";
+  content: "";
 }
 
 .fa-th:before {
-  content: "ï€Š";
+  content: "";
 }
 
 .fa-th-list:before {
-  content: "ï€‹";
+  content: "";
 }
 
 .fa-check:before {
-  content: "ï€Œ";
+  content: "";
 }
 
 .fa-remove:before,
 .fa-close:before,
 .fa-times:before {
-  content: "ï€";
+  content: "";
 }
 
 .fa-search-plus:before {
-  content: "ï€Ž";
+  content: "";
 }
 
 .fa-search-minus:before {
-  content: "ï€";
+  content: "";
 }
 
 .fa-power-off:before {
-  content: "ï€‘";
+  content: "";
 }
 
 .fa-signal:before {
-  content: "ï€’";
+  content: "";
 }
 
 .fa-gear:before,
 .fa-cog:before {
-  content: "ï€“";
+  content: "";
 }
 
 .fa-trash-o:before {
-  content: "ï€”";
+  content: "";
 }
 
 .fa-home:before {
-  content: "ï€•";
+  content: "";
 }
 
 .fa-file-o:before {
-  content: "ï€–";
+  content: "";
 }
 
 .fa-clock-o:before {
-  content: "ï€—";
+  content: "";
 }
 
 .fa-road:before {
-  content: "ï€˜";
+  content: "";
 }
 
 .fa-download:before {
-  content: "ï€™";
+  content: "";
 }
 
 .fa-arrow-circle-o-down:before {
-  content: "ï€š";
+  content: "";
 }
 
 .fa-arrow-circle-o-up:before {
-  content: "ï€›";
+  content: "";
 }
 
 .fa-inbox:before {
-  content: "ï€œ";
+  content: "";
 }
 
 .fa-play-circle-o:before {
-  content: "ï€";
+  content: "";
 }
 
 .fa-rotate-right:before,
 .fa-repeat:before {
-  content: "ï€ž";
+  content: "";
 }
 
 .fa-refresh:before {
-  content: "ï€¡";
+  content: "";
 }
 
 .fa-list-alt:before {
-  content: "ï€¢";
+  content: "";
 }
 
 .fa-lock:before {
-  content: "ï€£";
+  content: "";
 }
 
 .fa-flag:before {
-  content: "ï€¤";
+  content: "";
 }
 
 .fa-headphones:before {
-  content: "ï€¥";
+  content: "";
 }
 
 .fa-volume-off:before {
-  content: "ï€¦";
+  content: "";
 }
 
 .fa-volume-down:before {
-  content: "ï€§";
+  content: "";
 }
 
 .fa-volume-up:before {
-  content: "ï€¨";
+  content: "";
 }
 
 .fa-qrcode:before {
-  content: "ï€©";
+  content: "";
 }
 
 .fa-barcode:before {
-  content: "ï€ª";
+  content: "";
 }
 
 .fa-tag:before {
-  content: "ï€«";
+  content: "";
 }
 
 .fa-tags:before {
-  content: "ï€¬";
+  content: "";
 }
 
 .fa-book:before {
-  content: "ï€­";
+  content: "";
 }
 
 .fa-bookmark:before {
-  content: "ï€®";
+  content: "";
 }
 
 .fa-print:before {
-  content: "ï€¯";
+  content: "";
 }
 
 .fa-camera:before {
-  content: "ï€°";
+  content: "";
 }
 
 .fa-font:before {
-  content: "ï€±";
+  content: "";
 }
 
 .fa-bold:before {
-  content: "ï€²";
+  content: "";
 }
 
 .fa-italic:before {
-  content: "ï€³";
+  content: "";
 }
 
 .fa-text-height:before {
-  content: "ï€´";
+  content: "";
 }
 
 .fa-text-width:before {
-  content: "ï€µ";
+  content: "";
 }
 
 .fa-align-left:before {
-  content: "ï€¶";
+  content: "";
 }
 
 .fa-align-center:before {
-  content: "ï€·";
+  content: "";
 }
 
 .fa-align-right:before {
-  content: "ï€¸";
+  content: "";
 }
 
 .fa-align-justify:before {
-  content: "ï€¹";
+  content: "";
 }
 
 .fa-list:before {
-  content: "ï€º";
+  content: "";
 }
 
 .fa-dedent:before,
 .fa-outdent:before {
-  content: "ï€»";
+  content: "";
 }
 
 .fa-indent:before {
-  content: "ï€¼";
+  content: "";
 }
 
 .fa-video-camera:before {
-  content: "ï€½";
+  content: "";
 }
 
 .fa-photo:before,
 .fa-image:before,
 .fa-picture-o:before {
-  content: "ï€¾";
+  content: "";
 }
 
 .fa-pencil:before {
-  content: "ï€";
+  content: "";
 }
 
 .fa-map-marker:before {
-  content: "ï";
+  content: "";
 }
 
 .fa-adjust:before {
-  content: "ï‚";
+  content: "";
 }
 
 .fa-tint:before {
-  content: "ïƒ";
+  content: "";
 }
 
 .fa-edit:before,
 .fa-pencil-square-o:before {
-  content: "ï„";
+  content: "";
 }
 
 .fa-share-square-o:before {
-  content: "ï…";
+  content: "";
 }
 
 .fa-check-square-o:before {
-  content: "ï†";
+  content: "";
 }
 
 .fa-arrows:before {
-  content: "ï‡";
+  content: "";
 }
 
 .fa-step-backward:before {
-  content: "ïˆ";
+  content: "";
 }
 
 .fa-fast-backward:before {
-  content: "ï‰";
+  content: "";
 }
 
 .fa-backward:before {
-  content: "ïŠ";
+  content: "";
 }
 
 .fa-play:before {
-  content: "ï‹";
+  content: "";
 }
 
 .fa-pause:before {
-  content: "ïŒ";
+  content: "";
 }
 
 .fa-stop:before {
-  content: "ï";
+  content: "";
 }
 
 .fa-forward:before {
-  content: "ïŽ";
+  content: "";
 }
 
 .fa-fast-forward:before {
-  content: "ï";
+  content: "";
 }
 
 .fa-step-forward:before {
-  content: "ï‘";
+  content: "";
 }
 
 .fa-eject:before {
-  content: "ï’";
+  content: "";
 }
 
 .fa-chevron-left:before {
-  content: "ï“";
+  content: "";
 }
 
 .fa-chevron-right:before {
-  content: "ï”";
+  content: "";
 }
 
 .fa-plus-circle:before {
-  content: "ï•";
+  content: "";
 }
 
 .fa-minus-circle:before {
-  content: "ï–";
+  content: "";
 }
 
 .fa-times-circle:before {
-  content: "ï—";
+  content: "";
 }
 
 .fa-check-circle:before {
-  content: "ï˜";
+  content: "";
 }
 
 .fa-question-circle:before {
-  content: "ï™";
+  content: "";
 }
 
 .fa-info-circle:before {
-  content: "ïš";
+  content: "";
 }
 
 .fa-crosshairs:before {
-  content: "ï›";
+  content: "";
 }
 
 .fa-times-circle-o:before {
-  content: "ïœ";
+  content: "";
 }
 
 .fa-check-circle-o:before {
-  content: "ï";
+  content: "";
 }
 
 .fa-ban:before {
-  content: "ïž";
+  content: "";
 }
 
 .fa-arrow-left:before {
-  content: "ï ";
+  content: "";
 }
 
 .fa-arrow-right:before {
-  content: "ï¡";
+  content: "";
 }
 
 .fa-arrow-up:before {
-  content: "ï¢";
+  content: "";
 }
 
 .fa-arrow-down:before {
-  content: "ï£";
+  content: "";
 }
 
 .fa-mail-forward:before,
 .fa-share:before {
-  content: "ï¤";
+  content: "";
 }
 
 .fa-expand:before {
-  content: "ï¥";
+  content: "";
 }
 
 .fa-compress:before {
-  content: "ï¦";
+  content: "";
 }
 
 .fa-plus:before {
-  content: "ï§";
+  content: "";
 }
 
 .fa-minus:before {
-  content: "ï¨";
+  content: "";
 }
 
 .fa-asterisk:before {
-  content: "ï©";
+  content: "";
 }
 
 .fa-exclamation-circle:before {
-  content: "ïª";
+  content: "";
 }
 
 .fa-gift:before {
-  content: "ï«";
+  content: "";
 }
 
 .fa-leaf:before {
-  content: "ï¬";
+  content: "";
 }
 
 .fa-fire:before {
-  content: "ï­";
+  content: "";
 }
 
 .fa-eye:before {
-  content: "ï®";
+  content: "";
 }
 
 .fa-eye-slash:before {
-  content: "ï°";
+  content: "";
 }
 
 .fa-warning:before,
 .fa-exclamation-triangle:before {
-  content: "ï±";
+  content: "";
 }
 
 .fa-plane:before {
-  content: "ï²";
+  content: "";
 }
 
 .fa-calendar:before {
-  content: "ï³";
+  content: "";
 }
 
 .fa-random:before {
-  content: "ï´";
+  content: "";
 }
 
 .fa-comment:before {
-  content: "ïµ";
+  content: "";
 }
 
 .fa-magnet:before {
-  content: "ï¶";
+  content: "";
 }
 
 .fa-chevron-up:before {
-  content: "ï·";
+  content: "";
 }
 
 .fa-chevron-down:before {
-  content: "ï¸";
+  content: "";
 }
 
 .fa-retweet:before {
-  content: "ï¹";
+  content: "";
 }
 
 .fa-shopping-cart:before {
-  content: "ïº";
+  content: "";
 }
 
 .fa-folder:before {
-  content: "ï»";
+  content: "";
 }
 
 .fa-folder-open:before {
-  content: "ï¼";
+  content: "";
 }
 
 .fa-arrows-v:before {
-  content: "ï½";
+  content: "";
 }
 
 .fa-arrows-h:before {
-  content: "ï¾";
+  content: "";
 }
 
 .fa-bar-chart-o:before,
 .fa-bar-chart:before {
-  content: "ï‚€";
+  content: "";
 }
 
 .fa-twitter-square:before {
-  content: "ï‚";
+  content: "";
 }
 
 .fa-facebook-square:before {
-  content: "ï‚‚";
+  content: "";
 }
 
 .fa-camera-retro:before {
-  content: "ï‚ƒ";
+  content: "";
 }
 
 .fa-key:before {
-  content: "ï‚„";
+  content: "";
 }
 
 .fa-gears:before,
 .fa-cogs:before {
-  content: "ï‚…";
+  content: "";
 }
 
 .fa-comments:before {
-  content: "ï‚†";
+  content: "";
 }
 
 .fa-thumbs-o-up:before {
-  content: "ï‚‡";
+  content: "";
 }
 
 .fa-thumbs-o-down:before {
-  content: "ï‚ˆ";
+  content: "";
 }
 
 .fa-star-half:before {
-  content: "ï‚‰";
+  content: "";
 }
 
 .fa-heart-o:before {
-  content: "ï‚Š";
+  content: "";
 }
 
 .fa-sign-out:before {
-  content: "ï‚‹";
+  content: "";
 }
 
 .fa-linkedin-square:before {
-  content: "ï‚Œ";
+  content: "";
 }
 
 .fa-thumb-tack:before {
-  content: "ï‚";
+  content: "";
 }
 
 .fa-external-link:before {
-  content: "ï‚Ž";
+  content: "";
 }
 
 .fa-sign-in:before {
-  content: "ï‚";
+  content: "";
 }
 
 .fa-trophy:before {
-  content: "ï‚‘";
+  content: "";
 }
 
 .fa-github-square:before {
-  content: "ï‚’";
+  content: "";
 }
 
 .fa-upload:before {
-  content: "ï‚“";
+  content: "";
 }
 
 .fa-lemon-o:before {
-  content: "ï‚”";
+  content: "";
 }
 
 .fa-phone:before {
-  content: "ï‚•";
+  content: "";
 }
 
 .fa-square-o:before {
-  content: "ï‚–";
+  content: "";
 }
 
 .fa-bookmark-o:before {
-  content: "ï‚—";
+  content: "";
 }
 
 .fa-phone-square:before {
-  content: "ï‚˜";
+  content: "";
 }
 
 .fa-twitter:before {
-  content: "ï‚™";
+  content: "";
 }
 
 .fa-facebook-f:before,
 .fa-facebook:before {
-  content: "ï‚š";
+  content: "";
 }
 
 .fa-github:before {
-  content: "ï‚›";
+  content: "";
 }
 
 .fa-unlock:before {
-  content: "ï‚œ";
+  content: "";
 }
 
 .fa-credit-card:before {
-  content: "ï‚";
+  content: "";
 }
 
 .fa-feed:before,
 .fa-rss:before {
-  content: "ï‚ž";
+  content: "";
 }
 
 .fa-hdd-o:before {
-  content: "ï‚ ";
+  content: "";
 }
 
 .fa-bullhorn:before {
-  content: "ï‚¡";
+  content: "";
 }
 
 .fa-bell:before {
-  content: "ïƒ³";
+  content: "";
 }
 
 .fa-certificate:before {
-  content: "ï‚£";
+  content: "";
 }
 
 .fa-hand-o-right:before {
-  content: "ï‚¤";
+  content: "";
 }
 
 .fa-hand-o-left:before {
-  content: "ï‚¥";
+  content: "";
 }
 
 .fa-hand-o-up:before {
-  content: "ï‚¦";
+  content: "";
 }
 
 .fa-hand-o-down:before {
-  content: "ï‚§";
+  content: "";
 }
 
 .fa-arrow-circle-left:before {
-  content: "ï‚¨";
+  content: "";
 }
 
 .fa-arrow-circle-right:before {
-  content: "ï‚©";
+  content: "";
 }
 
 .fa-arrow-circle-up:before {
-  content: "ï‚ª";
+  content: "";
 }
 
 .fa-arrow-circle-down:before {
-  content: "ï‚«";
+  content: "";
 }
 
 .fa-globe:before {
-  content: "ï‚¬";
+  content: "";
 }
 
 .fa-wrench:before {
-  content: "ï‚­";
+  content: "";
 }
 
 .fa-tasks:before {
-  content: "ï‚®";
+  content: "";
 }
 
 .fa-filter:before {
-  content: "ï‚°";
+  content: "";
 }
 
 .fa-briefcase:before {
-  content: "ï‚±";
+  content: "";
 }
 
 .fa-arrows-alt:before {
-  content: "ï‚²";
+  content: "";
 }
 
 .fa-group:before,
 .fa-users:before {
-  content: "ïƒ€";
+  content: "";
 }
 
 .fa-chain:before,
 .fa-link:before {
-  content: "ïƒ";
+  content: "";
 }
 
 .fa-cloud:before {
-  content: "ïƒ‚";
+  content: "";
 }
 
 .fa-flask:before {
-  content: "ïƒƒ";
+  content: "";
 }
 
 .fa-cut:before,
 .fa-scissors:before {
-  content: "ïƒ„";
+  content: "";
 }
 
 .fa-copy:before,
 .fa-files-o:before {
-  content: "ïƒ…";
+  content: "";
 }
 
 .fa-paperclip:before {
-  content: "ïƒ†";
+  content: "";
 }
 
 .fa-save:before,
 .fa-floppy-o:before {
-  content: "ïƒ‡";
+  content: "";
 }
 
 .fa-square:before {
-  content: "ïƒˆ";
+  content: "";
 }
 
-/* .fa-navicon:before,
+.fa-navicon:before,
 .fa-reorder:before,
 .fa-bars:before {
-  content: "Menu";
-} */
+  content: "";
+}
 
 .fa-list-ul:before {
-  content: "ïƒŠ";
+  content: "";
 }
 
 .fa-list-ol:before {
-  content: "ïƒ‹";
+  content: "";
 }
 
 .fa-strikethrough:before {
-  content: "ïƒŒ";
+  content: "";
 }
 
 .fa-underline:before {
-  content: "ïƒ";
+  content: "";
 }
 
 .fa-table:before {
-  content: "ïƒŽ";
+  content: "";
 }
 
 .fa-magic:before {
-  content: "ïƒ";
+  content: "";
 }
 
 .fa-truck:before {
-  content: "ïƒ‘";
+  content: "";
 }
 
 .fa-pinterest:before {
-  content: "ïƒ’";
+  content: "";
 }
 
 .fa-pinterest-square:before {
-  content: "ïƒ“";
+  content: "";
 }
 
 .fa-google-plus-square:before {
-  content: "ïƒ”";
+  content: "";
 }
 
 .fa-google-plus:before {
-  content: "ïƒ•";
+  content: "";
 }
 
 .fa-money:before {
-  content: "ïƒ–";
+  content: "";
 }
 
 .fa-caret-down:before {
-  content: "ïƒ—";
+  content: "";
 }
 
 .fa-caret-up:before {
-  content: "ïƒ˜";
+  content: "";
 }
 
 .fa-caret-left:before {
-  content: "ïƒ™";
+  content: "";
 }
 
 .fa-caret-right:before {
-  content: "ïƒš";
+  content: "";
 }
 
 .fa-columns:before {
-  content: "ïƒ›";
+  content: "";
 }
 
 .fa-unsorted:before,
 .fa-sort:before {
-  content: "ïƒœ";
+  content: "";
 }
 
 .fa-sort-down:before,
 .fa-sort-desc:before {
-  content: "ïƒ";
+  content: "";
 }
 
 .fa-sort-up:before,
 .fa-sort-asc:before {
-  content: "ïƒž";
+  content: "";
 }
 
 .fa-envelope:before {
-  content: "ïƒ ";
+  content: "";
 }
 
 .fa-linkedin:before {
-  content: "ïƒ¡";
+  content: "";
 }
 
 .fa-rotate-left:before,
 .fa-undo:before {
-  content: "ïƒ¢";
+  content: "";
 }
 
 .fa-legal:before,
 .fa-gavel:before {
-  content: "ïƒ£";
+  content: "";
 }
 
 .fa-dashboard:before,
 .fa-tachometer:before {
-  content: "ïƒ¤";
+  content: "";
 }
 
 .fa-comment-o:before {
-  content: "ïƒ¥";
+  content: "";
 }
 
 .fa-comments-o:before {
-  content: "ïƒ¦";
+  content: "";
 }
 
 .fa-flash:before,
 .fa-bolt:before {
-  content: "ïƒ§";
+  content: "";
 }
 
 .fa-sitemap:before {
-  content: "ïƒ¨";
+  content: "";
 }
 
 .fa-umbrella:before {
-  content: "ïƒ©";
+  content: "";
 }
 
 .fa-paste:before,
 .fa-clipboard:before {
-  content: "ïƒª";
+  content: "";
 }
 
 .fa-lightbulb-o:before {
-  content: "ïƒ«";
+  content: "";
 }
 
 .fa-exchange:before {
-  content: "ïƒ¬";
+  content: "";
 }
 
 .fa-cloud-download:before {
-  content: "ïƒ­";
+  content: "";
 }
 
 .fa-cloud-upload:before {
-  content: "ïƒ®";
+  content: "";
 }
 
 .fa-user-md:before {
-  content: "ïƒ°";
+  content: "";
 }
 
 .fa-stethoscope:before {
-  content: "ïƒ±";
+  content: "";
 }
 
 .fa-suitcase:before {
-  content: "ïƒ²";
+  content: "";
 }
 
 .fa-bell-o:before {
-  content: "ï‚¢";
+  content: "";
 }
 
 .fa-coffee:before {
-  content: "ïƒ´";
+  content: "";
 }
 
 .fa-cutlery:before {
-  content: "ïƒµ";
+  content: "";
 }
 
 .fa-file-text-o:before {
-  content: "ïƒ¶";
+  content: "";
 }
 
 .fa-building-o:before {
-  content: "ïƒ·";
+  content: "";
 }
 
 .fa-hospital-o:before {
-  content: "ïƒ¸";
+  content: "";
 }
 
 .fa-ambulance:before {
-  content: "ïƒ¹";
+  content: "";
 }
 
 .fa-medkit:before {
-  content: "ïƒº";
+  content: "";
 }
 
 .fa-fighter-jet:before {
-  content: "ïƒ»";
+  content: "";
 }
 
 .fa-beer:before {
-  content: "ïƒ¼";
+  content: "";
 }
 
 .fa-h-square:before {
-  content: "ïƒ½";
+  content: "";
 }
 
 .fa-plus-square:before {
-  content: "ïƒ¾";
+  content: "";
 }
 
 .fa-angle-double-left:before {
-  content: "ï„€";
+  content: "";
 }
 
 .fa-angle-double-right:before {
-  content: "ï„";
+  content: "";
 }
 
 .fa-angle-double-up:before {
-  content: "ï„‚";
+  content: "";
 }
 
 .fa-angle-double-down:before {
-  content: "ï„ƒ";
+  content: "";
 }
 
 .fa-angle-left:before {
-  content: "ï„„";
+  content: "";
 }
 
 .fa-angle-right:before {
-  content: "ï„…";
+  content: "";
 }
 
 .fa-angle-up:before {
-  content: "ï„†";
+  content: "";
 }
 
 .fa-angle-down:before {
-  content: "ï„‡";
+  content: "";
 }
 
 .fa-desktop:before {
-  content: "ï„ˆ";
+  content: "";
 }
 
 .fa-laptop:before {
-  content: "ï„‰";
+  content: "";
 }
 
 .fa-tablet:before {
-  content: "ï„Š";
+  content: "";
 }
 
 .fa-mobile-phone:before,
 .fa-mobile:before {
-  content: "ï„‹";
+  content: "";
 }
 
 .fa-circle-o:before {
-  content: "ï„Œ";
+  content: "";
 }
 
 .fa-quote-left:before {
-  content: "ï„";
+  content: "";
 }
 
 .fa-quote-right:before {
-  content: "ï„Ž";
+  content: "";
 }
 
 .fa-spinner:before {
-  content: "ï„";
+  content: "";
 }
 
 .fa-circle:before {
-  content: "ï„‘";
+  content: "";
 }
 
 .fa-mail-reply:before,
 .fa-reply:before {
-  content: "ï„’";
+  content: "";
 }
 
 .fa-github-alt:before {
-  content: "ï„“";
+  content: "";
 }
 
 .fa-folder-o:before {
-  content: "ï„”";
+  content: "";
 }
 
 .fa-folder-open-o:before {
-  content: "ï„•";
+  content: "";
 }
 
 .fa-smile-o:before {
-  content: "ï„˜";
+  content: "";
 }
 
 .fa-frown-o:before {
-  content: "ï„™";
+  content: "";
 }
 
 .fa-meh-o:before {
-  content: "ï„š";
+  content: "";
 }
 
 .fa-gamepad:before {
-  content: "ï„›";
+  content: "";
 }
 
 .fa-keyboard-o:before {
-  content: "ï„œ";
+  content: "";
 }
 
 .fa-flag-o:before {
-  content: "ï„";
+  content: "";
 }
 
 .fa-flag-checkered:before {
-  content: "ï„ž";
+  content: "";
 }
 
 .fa-terminal:before {
-  content: "ï„ ";
+  content: "";
 }
 
 .fa-code:before {
-  content: "ï„¡";
+  content: "";
 }
 
 .fa-mail-reply-all:before,
 .fa-reply-all:before {
-  content: "ï„¢";
+  content: "";
 }
 
 .fa-star-half-empty:before,
 .fa-star-half-full:before,
 .fa-star-half-o:before {
-  content: "ï„£";
+  content: "";
 }
 
 .fa-location-arrow:before {
-  content: "ï„¤";
+  content: "";
 }
 
 .fa-crop:before {
-  content: "ï„¥";
+  content: "";
 }
 
 .fa-code-fork:before {
-  content: "ï„¦";
+  content: "";
 }
 
 .fa-unlink:before,
 .fa-chain-broken:before {
-  content: "ï„§";
+  content: "";
 }
 
 .fa-question:before {
-  content: "ï„¨";
+  content: "";
 }
 
 .fa-info:before {
-  content: "ï„©";
+  content: "";
 }
 
 .fa-exclamation:before {
-  content: "ï„ª";
+  content: "";
 }
 
 .fa-superscript:before {
-  content: "ï„«";
+  content: "";
 }
 
 .fa-subscript:before {
-  content: "ï„¬";
+  content: "";
 }
 
 .fa-eraser:before {
-  content: "ï„­";
+  content: "";
 }
 
 .fa-puzzle-piece:before {
-  content: "ï„®";
+  content: "";
 }
 
 .fa-microphone:before {
-  content: "ï„°";
+  content: "";
 }
 
 .fa-microphone-slash:before {
-  content: "ï„±";
+  content: "";
 }
 
 .fa-shield:before {
-  content: "ï„²";
+  content: "";
 }
 
 .fa-calendar-o:before {
-  content: "ï„³";
+  content: "";
 }
 
 .fa-fire-extinguisher:before {
-  content: "ï„´";
+  content: "";
 }
 
 .fa-rocket:before {
-  content: "ï„µ";
+  content: "";
 }
 
 .fa-maxcdn:before {
-  content: "ï„¶";
+  content: "";
 }
 
 .fa-chevron-circle-left:before {
-  content: "ï„·";
+  content: "";
 }
 
 .fa-chevron-circle-right:before {
-  content: "ï„¸";
+  content: "";
 }
 
 .fa-chevron-circle-up:before {
-  content: "ï„¹";
+  content: "";
 }
 
 .fa-chevron-circle-down:before {
-  content: "ï„º";
+  content: "";
 }
 
 .fa-html5:before {
-  content: "ï„»";
+  content: "";
 }
 
 .fa-css3:before {
-  content: "ï„¼";
+  content: "";
 }
 
 .fa-anchor:before {
-  content: "ï„½";
+  content: "";
 }
 
 .fa-unlock-alt:before {
-  content: "ï„¾";
+  content: "";
 }
 
 .fa-bullseye:before {
-  content: "ï…€";
+  content: "";
 }
 
 .fa-ellipsis-h:before {
-  content: "ï…";
+  content: "";
 }
 
 .fa-ellipsis-v:before {
-  content: "ï…‚";
+  content: "";
 }
 
 .fa-rss-square:before {
-  content: "ï…ƒ";
+  content: "";
 }
 
 .fa-play-circle:before {
-  content: "ï…„";
+  content: "";
 }
 
 .fa-ticket:before {
-  content: "ï……";
+  content: "";
 }
 
 .fa-minus-square:before {
-  content: "ï…†";
+  content: "";
 }
 
 .fa-minus-square-o:before {
-  content: "ï…‡";
+  content: "";
 }
 
 .fa-level-up:before {
-  content: "ï…ˆ";
+  content: "";
 }
 
 .fa-level-down:before {
-  content: "ï…‰";
+  content: "";
 }
 
 .fa-check-square:before {
-  content: "ï…Š";
+  content: "";
 }
 
 .fa-pencil-square:before {
-  content: "ï…‹";
+  content: "";
 }
 
 .fa-external-link-square:before {
-  content: "ï…Œ";
+  content: "";
 }
 
 .fa-share-square:before {
-  content: "ï…";
+  content: "";
 }
 
 .fa-compass:before {
-  content: "ï…Ž";
+  content: "";
 }
 
 .fa-toggle-down:before,
 .fa-caret-square-o-down:before {
-  content: "ï…";
+  content: "";
 }
 
 .fa-toggle-up:before,
 .fa-caret-square-o-up:before {
-  content: "ï…‘";
+  content: "";
 }
 
 .fa-toggle-right:before,
 .fa-caret-square-o-right:before {
-  content: "ï…’";
+  content: "";
 }
 
 .fa-euro:before,
 .fa-eur:before {
-  content: "ï…“";
+  content: "";
 }
 
 .fa-gbp:before {
-  content: "ï…”";
+  content: "";
 }
 
 .fa-dollar:before,
 .fa-usd:before {
-  content: "ï…•";
+  content: "";
 }
 
 .fa-rupee:before,
 .fa-inr:before {
-  content: "ï…–";
+  content: "";
 }
 
 .fa-cny:before,
 .fa-rmb:before,
 .fa-yen:before,
 .fa-jpy:before {
-  content: "ï…—";
+  content: "";
 }
 
 .fa-ruble:before,
 .fa-rouble:before,
 .fa-rub:before {
-  content: "ï…˜";
+  content: "";
 }
 
 .fa-won:before,
 .fa-krw:before {
-  content: "ï…™";
+  content: "";
 }
 
 .fa-bitcoin:before,
 .fa-btc:before {
-  content: "ï…š";
+  content: "";
 }
 
 .fa-file:before {
-  content: "ï…›";
+  content: "";
 }
 
 .fa-file-text:before {
-  content: "ï…œ";
+  content: "";
 }
 
 .fa-sort-alpha-asc:before {
-  content: "ï…";
+  content: "";
 }
 
 .fa-sort-alpha-desc:before {
-  content: "ï…ž";
+  content: "";
 }
 
 .fa-sort-amount-asc:before {
-  content: "ï… ";
+  content: "";
 }
 
 .fa-sort-amount-desc:before {
-  content: "ï…¡";
+  content: "";
 }
 
 .fa-sort-numeric-asc:before {
-  content: "ï…¢";
+  content: "";
 }
 
 .fa-sort-numeric-desc:before {
-  content: "ï…£";
+  content: "";
 }
 
 .fa-thumbs-up:before {
-  content: "ï…¤";
+  content: "";
 }
 
 .fa-thumbs-down:before {
-  content: "ï…¥";
+  content: "";
 }
 
 .fa-youtube-square:before {
-  content: "ï…¦";
+  content: "";
 }
 
 .fa-youtube:before {
-  content: "ï…§";
+  content: "";
 }
 
 .fa-xing:before {
-  content: "ï…¨";
+  content: "";
 }
 
 .fa-xing-square:before {
-  content: "ï…©";
+  content: "";
 }
 
 .fa-youtube-play:before {
-  content: "ï…ª";
+  content: "";
 }
 
 .fa-dropbox:before {
-  content: "ï…«";
+  content: "";
 }
 
 .fa-stack-overflow:before {
-  content: "ï…¬";
+  content: "";
 }
 
 .fa-instagram:before {
-  content: "ï…­";
+  content: "";
 }
 
 .fa-flickr:before {
-  content: "ï…®";
+  content: "";
 }
 
 .fa-adn:before {
-  content: "ï…°";
+  content: "";
 }
 
 .fa-bitbucket:before {
-  content: "ï…±";
+  content: "";
 }
 
 .fa-bitbucket-square:before {
-  content: "ï…²";
+  content: "";
 }
 
 .fa-tumblr:before {
-  content: "ï…³";
+  content: "";
 }
 
 .fa-tumblr-square:before {
-  content: "ï…´";
+  content: "";
 }
 
 .fa-long-arrow-down:before {
-  content: "ï…µ";
+  content: "";
 }
 
 .fa-long-arrow-up:before {
-  content: "ï…¶";
+  content: "";
 }
 
 .fa-long-arrow-left:before {
-  content: "ï…·";
+  content: "";
 }
 
 .fa-long-arrow-right:before {
-  content: "ï…¸";
+  content: "";
 }
 
 .fa-apple:before {
-  content: "ï…¹";
+  content: "";
 }
 
 .fa-windows:before {
-  content: "ï…º";
+  content: "";
 }
 
 .fa-android:before {
-  content: "ï…»";
+  content: "";
 }
 
 .fa-linux:before {
-  content: "ï…¼";
+  content: "";
 }
 
 .fa-dribbble:before {
-  content: "ï…½";
+  content: "";
 }
 
 .fa-skype:before {
-  content: "ï…¾";
+  content: "";
 }
 
 .fa-foursquare:before {
-  content: "ï†€";
+  content: "";
 }
 
 .fa-trello:before {
-  content: "ï†";
+  content: "";
 }
 
 .fa-female:before {
-  content: "ï†‚";
+  content: "";
 }
 
 .fa-male:before {
-  content: "ï†ƒ";
+  content: "";
 }
 
 .fa-gittip:before,
 .fa-gratipay:before {
-  content: "ï†„";
+  content: "";
 }
 
 .fa-sun-o:before {
-  content: "ï†…";
+  content: "";
 }
 
 .fa-moon-o:before {
-  content: "ï††";
+  content: "";
 }
 
 .fa-archive:before {
-  content: "ï†‡";
+  content: "";
 }
 
 .fa-bug:before {
-  content: "ï†ˆ";
+  content: "";
 }
 
 .fa-vk:before {
-  content: "ï†‰";
+  content: "";
 }
 
 .fa-weibo:before {
-  content: "ï†Š";
+  content: "";
 }
 
 .fa-renren:before {
-  content: "ï†‹";
+  content: "";
 }
 
 .fa-pagelines:before {
-  content: "ï†Œ";
+  content: "";
 }
 
 .fa-stack-exchange:before {
-  content: "ï†";
+  content: "";
 }
 
 .fa-arrow-circle-o-right:before {
-  content: "ï†Ž";
+  content: "";
 }
 
 .fa-arrow-circle-o-left:before {
-  content: "ï†";
+  content: "";
 }
 
 .fa-toggle-left:before,
 .fa-caret-square-o-left:before {
-  content: "ï†‘";
+  content: "";
 }
 
 .fa-dot-circle-o:before {
-  content: "ï†’";
+  content: "";
 }
 
 .fa-wheelchair:before {
-  content: "ï†“";
+  content: "";
 }
 
 .fa-vimeo-square:before {
-  content: "ï†”";
+  content: "";
 }
 
 .fa-turkish-lira:before,
 .fa-try:before {
-  content: "ï†•";
+  content: "";
 }
 
 .fa-plus-square-o:before {
-  content: "ï†–";
+  content: "";
 }
 
 .fa-space-shuttle:before {
-  content: "ï†—";
+  content: "";
 }
 
 .fa-slack:before {
-  content: "ï†˜";
+  content: "";
 }
 
 .fa-envelope-square:before {
-  content: "ï†™";
+  content: "";
 }
 
 .fa-wordpress:before {
-  content: "ï†š";
+  content: "";
 }
 
 .fa-openid:before {
-  content: "ï†›";
+  content: "";
 }
 
 .fa-institution:before,
 .fa-bank:before,
 .fa-university:before {
-  content: "ï†œ";
+  content: "";
 }
 
 .fa-mortar-board:before,
 .fa-graduation-cap:before {
-  content: "ï†";
+  content: "";
 }
 
 .fa-yahoo:before {
-  content: "ï†ž";
+  content: "";
 }
 
 .fa-google:before {
-  content: "ï† ";
+  content: "";
 }
 
 .fa-reddit:before {
-  content: "ï†¡";
+  content: "";
 }
 
 .fa-reddit-square:before {
-  content: "ï†¢";
+  content: "";
 }
 
 .fa-stumbleupon-circle:before {
-  content: "ï†£";
+  content: "";
 }
 
 .fa-stumbleupon:before {
-  content: "ï†¤";
+  content: "";
 }
 
 .fa-delicious:before {
-  content: "ï†¥";
+  content: "";
 }
 
 .fa-digg:before {
-  content: "ï†¦";
+  content: "";
 }
 
 .fa-pied-piper-pp:before {
-  content: "ï†§";
+  content: "";
 }
 
 .fa-pied-piper-alt:before {
-  content: "ï†¨";
+  content: "";
 }
 
 .fa-drupal:before {
-  content: "ï†©";
+  content: "";
 }
 
 .fa-joomla:before {
-  content: "ï†ª";
+  content: "";
 }
 
 .fa-language:before {
-  content: "ï†«";
+  content: "";
 }
 
 .fa-fax:before {
-  content: "ï†¬";
+  content: "";
 }
 
 .fa-building:before {
-  content: "ï†­";
+  content: "";
 }
 
 .fa-child:before {
-  content: "ï†®";
+  content: "";
 }
 
 .fa-paw:before {
-  content: "ï†°";
+  content: "";
 }
 
 .fa-spoon:before {
-  content: "ï†±";
+  content: "";
 }
 
 .fa-cube:before {
-  content: "ï†²";
+  content: "";
 }
 
 .fa-cubes:before {
-  content: "ï†³";
+  content: "";
 }
 
 .fa-behance:before {
-  content: "ï†´";
+  content: "";
 }
 
 .fa-behance-square:before {
-  content: "ï†µ";
+  content: "";
 }
 
 .fa-steam:before {
-  content: "ï†¶";
+  content: "";
 }
 
 .fa-steam-square:before {
-  content: "ï†·";
+  content: "";
 }
 
 .fa-recycle:before {
-  content: "ï†¸";
+  content: "";
 }
 
 .fa-automobile:before,
 .fa-car:before {
-  content: "ï†¹";
+  content: "";
 }
 
 .fa-cab:before,
 .fa-taxi:before {
-  content: "ï†º";
+  content: "";
 }
 
 .fa-tree:before {
-  content: "ï†»";
+  content: "";
 }
 
 .fa-spotify:before {
-  content: "ï†¼";
+  content: "";
 }
 
 .fa-deviantart:before {
-  content: "ï†½";
+  content: "";
 }
 
 .fa-soundcloud:before {
-  content: "ï†¾";
+  content: "";
 }
 
 .fa-database:before {
-  content: "ï‡€";
+  content: "";
 }
 
 .fa-file-pdf-o:before {
-  content: "ï‡";
+  content: "";
 }
 
 .fa-file-word-o:before {
-  content: "ï‡‚";
+  content: "";
 }
 
 .fa-file-excel-o:before {
-  content: "ï‡ƒ";
+  content: "";
 }
 
 .fa-file-powerpoint-o:before {
-  content: "ï‡„";
+  content: "";
 }
 
 .fa-file-photo-o:before,
 .fa-file-picture-o:before,
 .fa-file-image-o:before {
-  content: "ï‡…";
+  content: "";
 }
 
 .fa-file-zip-o:before,
 .fa-file-archive-o:before {
-  content: "ï‡†";
+  content: "";
 }
 
 .fa-file-sound-o:before,
 .fa-file-audio-o:before {
-  content: "ï‡‡";
+  content: "";
 }
 
 .fa-file-movie-o:before,
 .fa-file-video-o:before {
-  content: "ï‡ˆ";
+  content: "";
 }
 
 .fa-file-code-o:before {
-  content: "ï‡‰";
+  content: "";
 }
 
 .fa-vine:before {
-  content: "ï‡Š";
+  content: "";
 }
 
 .fa-codepen:before {
-  content: "ï‡‹";
+  content: "";
 }
 
 .fa-jsfiddle:before {
-  content: "ï‡Œ";
+  content: "";
 }
 
 .fa-life-bouy:before,
@@ -12920,1073 +12921,1073 @@ a.text-dark:focus {
 .fa-life-saver:before,
 .fa-support:before,
 .fa-life-ring:before {
-  content: "ï‡";
+  content: "";
 }
 
 .fa-circle-o-notch:before {
-  content: "ï‡Ž";
+  content: "";
 }
 
 .fa-ra:before,
 .fa-resistance:before,
 .fa-rebel:before {
-  content: "ï‡";
+  content: "";
 }
 
 .fa-ge:before,
 .fa-empire:before {
-  content: "ï‡‘";
+  content: "";
 }
 
 .fa-git-square:before {
-  content: "ï‡’";
+  content: "";
 }
 
 .fa-git:before {
-  content: "ï‡“";
+  content: "";
 }
 
 .fa-y-combinator-square:before,
 .fa-yc-square:before,
 .fa-hacker-news:before {
-  content: "ï‡”";
+  content: "";
 }
 
 .fa-tencent-weibo:before {
-  content: "ï‡•";
+  content: "";
 }
 
 .fa-qq:before {
-  content: "ï‡–";
+  content: "";
 }
 
 .fa-wechat:before,
 .fa-weixin:before {
-  content: "ï‡—";
+  content: "";
 }
 
 .fa-send:before,
 .fa-paper-plane:before {
-  content: "ï‡˜";
+  content: "";
 }
 
 .fa-send-o:before,
 .fa-paper-plane-o:before {
-  content: "ï‡™";
+  content: "";
 }
 
 .fa-history:before {
-  content: "ï‡š";
+  content: "";
 }
 
 .fa-circle-thin:before {
-  content: "ï‡›";
+  content: "";
 }
 
 .fa-header:before {
-  content: "ï‡œ";
+  content: "";
 }
 
 .fa-paragraph:before {
-  content: "ï‡";
+  content: "";
 }
 
 .fa-sliders:before {
-  content: "ï‡ž";
+  content: "";
 }
 
 .fa-share-alt:before {
-  content: "ï‡ ";
+  content: "";
 }
 
 .fa-share-alt-square:before {
-  content: "ï‡¡";
+  content: "";
 }
 
 .fa-bomb:before {
-  content: "ï‡¢";
+  content: "";
 }
 
 .fa-soccer-ball-o:before,
 .fa-futbol-o:before {
-  content: "ï‡£";
+  content: "";
 }
 
 .fa-tty:before {
-  content: "ï‡¤";
+  content: "";
 }
 
 .fa-binoculars:before {
-  content: "ï‡¥";
+  content: "";
 }
 
 .fa-plug:before {
-  content: "ï‡¦";
+  content: "";
 }
 
 .fa-slideshare:before {
-  content: "ï‡§";
+  content: "";
 }
 
 .fa-twitch:before {
-  content: "ï‡¨";
+  content: "";
 }
 
 .fa-yelp:before {
-  content: "ï‡©";
+  content: "";
 }
 
 .fa-newspaper-o:before {
-  content: "ï‡ª";
+  content: "";
 }
 
 .fa-wifi:before {
-  content: "ï‡«";
+  content: "";
 }
 
 .fa-calculator:before {
-  content: "ï‡¬";
+  content: "";
 }
 
 .fa-paypal:before {
-  content: "ï‡­";
+  content: "";
 }
 
 .fa-google-wallet:before {
-  content: "ï‡®";
+  content: "";
 }
 
 .fa-cc-visa:before {
-  content: "ï‡°";
+  content: "";
 }
 
 .fa-cc-mastercard:before {
-  content: "ï‡±";
+  content: "";
 }
 
 .fa-cc-discover:before {
-  content: "ï‡²";
+  content: "";
 }
 
 .fa-cc-amex:before {
-  content: "ï‡³";
+  content: "";
 }
 
 .fa-cc-paypal:before {
-  content: "ï‡´";
+  content: "";
 }
 
 .fa-cc-stripe:before {
-  content: "ï‡µ";
+  content: "";
 }
 
 .fa-bell-slash:before {
-  content: "ï‡¶";
+  content: "";
 }
 
 .fa-bell-slash-o:before {
-  content: "ï‡·";
+  content: "";
 }
 
 .fa-trash:before {
-  content: "ï‡¸";
+  content: "";
 }
 
 .fa-copyright:before {
-  content: "ï‡¹";
+  content: "";
 }
 
 .fa-at:before {
-  content: "ï‡º";
+  content: "";
 }
 
 .fa-eyedropper:before {
-  content: "ï‡»";
+  content: "";
 }
 
 .fa-paint-brush:before {
-  content: "ï‡¼";
+  content: "";
 }
 
 .fa-birthday-cake:before {
-  content: "ï‡½";
+  content: "";
 }
 
 .fa-area-chart:before {
-  content: "ï‡¾";
+  content: "";
 }
 
 .fa-pie-chart:before {
-  content: "ïˆ€";
+  content: "";
 }
 
 .fa-line-chart:before {
-  content: "ïˆ";
+  content: "";
 }
 
 .fa-lastfm:before {
-  content: "ïˆ‚";
+  content: "";
 }
 
 .fa-lastfm-square:before {
-  content: "ïˆƒ";
+  content: "";
 }
 
 .fa-toggle-off:before {
-  content: "ïˆ„";
+  content: "";
 }
 
 .fa-toggle-on:before {
-  content: "ïˆ…";
+  content: "";
 }
 
 .fa-bicycle:before {
-  content: "ïˆ†";
+  content: "";
 }
 
 .fa-bus:before {
-  content: "ïˆ‡";
+  content: "";
 }
 
 .fa-ioxhost:before {
-  content: "ïˆˆ";
+  content: "";
 }
 
 .fa-angellist:before {
-  content: "ïˆ‰";
+  content: "";
 }
 
 .fa-cc:before {
-  content: "ïˆŠ";
+  content: "";
 }
 
 .fa-shekel:before,
 .fa-sheqel:before,
 .fa-ils:before {
-  content: "ïˆ‹";
+  content: "";
 }
 
 .fa-meanpath:before {
-  content: "ïˆŒ";
+  content: "";
 }
 
 .fa-buysellads:before {
-  content: "ïˆ";
+  content: "";
 }
 
 .fa-connectdevelop:before {
-  content: "ïˆŽ";
+  content: "";
 }
 
 .fa-dashcube:before {
-  content: "ïˆ";
+  content: "";
 }
 
 .fa-forumbee:before {
-  content: "ïˆ‘";
+  content: "";
 }
 
 .fa-leanpub:before {
-  content: "ïˆ’";
+  content: "";
 }
 
 .fa-sellsy:before {
-  content: "ïˆ“";
+  content: "";
 }
 
 .fa-shirtsinbulk:before {
-  content: "ïˆ”";
+  content: "";
 }
 
 .fa-simplybuilt:before {
-  content: "ïˆ•";
+  content: "";
 }
 
 .fa-skyatlas:before {
-  content: "ïˆ–";
+  content: "";
 }
 
 .fa-cart-plus:before {
-  content: "ïˆ—";
+  content: "";
 }
 
 .fa-cart-arrow-down:before {
-  content: "ïˆ˜";
+  content: "";
 }
 
 .fa-diamond:before {
-  content: "ïˆ™";
+  content: "";
 }
 
 .fa-ship:before {
-  content: "ïˆš";
+  content: "";
 }
 
 .fa-user-secret:before {
-  content: "ïˆ›";
+  content: "";
 }
 
 .fa-motorcycle:before {
-  content: "ïˆœ";
+  content: "";
 }
 
 .fa-street-view:before {
-  content: "ïˆ";
+  content: "";
 }
 
 .fa-heartbeat:before {
-  content: "ïˆž";
+  content: "";
 }
 
 .fa-venus:before {
-  content: "ïˆ¡";
+  content: "";
 }
 
 .fa-mars:before {
-  content: "ïˆ¢";
+  content: "";
 }
 
 .fa-mercury:before {
-  content: "ïˆ£";
+  content: "";
 }
 
 .fa-intersex:before,
 .fa-transgender:before {
-  content: "ïˆ¤";
+  content: "";
 }
 
 .fa-transgender-alt:before {
-  content: "ïˆ¥";
+  content: "";
 }
 
 .fa-venus-double:before {
-  content: "ïˆ¦";
+  content: "";
 }
 
 .fa-mars-double:before {
-  content: "ïˆ§";
+  content: "";
 }
 
 .fa-venus-mars:before {
-  content: "ïˆ¨";
+  content: "";
 }
 
 .fa-mars-stroke:before {
-  content: "ïˆ©";
+  content: "";
 }
 
 .fa-mars-stroke-v:before {
-  content: "ïˆª";
+  content: "";
 }
 
 .fa-mars-stroke-h:before {
-  content: "ïˆ«";
+  content: "";
 }
 
 .fa-neuter:before {
-  content: "ïˆ¬";
+  content: "";
 }
 
 .fa-genderless:before {
-  content: "ïˆ­";
+  content: "";
 }
 
 .fa-facebook-official:before {
-  content: "ïˆ°";
+  content: "";
 }
 
 .fa-pinterest-p:before {
-  content: "ïˆ±";
+  content: "";
 }
 
 .fa-whatsapp:before {
-  content: "ïˆ²";
+  content: "";
 }
 
 .fa-server:before {
-  content: "ïˆ³";
+  content: "";
 }
 
 .fa-user-plus:before {
-  content: "ïˆ´";
+  content: "";
 }
 
 .fa-user-times:before {
-  content: "ïˆµ";
+  content: "";
 }
 
 .fa-hotel:before,
 .fa-bed:before {
-  content: "ïˆ¶";
+  content: "";
 }
 
 .fa-viacoin:before {
-  content: "ïˆ·";
+  content: "";
 }
 
 .fa-train:before {
-  content: "ïˆ¸";
+  content: "";
 }
 
 .fa-subway:before {
-  content: "ïˆ¹";
+  content: "";
 }
 
 .fa-medium:before {
-  content: "ïˆº";
+  content: "";
 }
 
 .fa-yc:before,
 .fa-y-combinator:before {
-  content: "ïˆ»";
+  content: "";
 }
 
 .fa-optin-monster:before {
-  content: "ïˆ¼";
+  content: "";
 }
 
 .fa-opencart:before {
-  content: "ïˆ½";
+  content: "";
 }
 
 .fa-expeditedssl:before {
-  content: "ïˆ¾";
+  content: "";
 }
 
 .fa-battery-4:before,
 .fa-battery:before,
 .fa-battery-full:before {
-  content: "ï‰€";
+  content: "";
 }
 
 .fa-battery-3:before,
 .fa-battery-three-quarters:before {
-  content: "ï‰";
+  content: "";
 }
 
 .fa-battery-2:before,
 .fa-battery-half:before {
-  content: "ï‰‚";
+  content: "";
 }
 
 .fa-battery-1:before,
 .fa-battery-quarter:before {
-  content: "ï‰ƒ";
+  content: "";
 }
 
 .fa-battery-0:before,
 .fa-battery-empty:before {
-  content: "ï‰„";
+  content: "";
 }
 
 .fa-mouse-pointer:before {
-  content: "ï‰…";
+  content: "";
 }
 
 .fa-i-cursor:before {
-  content: "ï‰†";
+  content: "";
 }
 
 .fa-object-group:before {
-  content: "ï‰‡";
+  content: "";
 }
 
 .fa-object-ungroup:before {
-  content: "ï‰ˆ";
+  content: "";
 }
 
 .fa-sticky-note:before {
-  content: "ï‰‰";
+  content: "";
 }
 
 .fa-sticky-note-o:before {
-  content: "ï‰Š";
+  content: "";
 }
 
 .fa-cc-jcb:before {
-  content: "ï‰‹";
+  content: "";
 }
 
 .fa-cc-diners-club:before {
-  content: "ï‰Œ";
+  content: "";
 }
 
 .fa-clone:before {
-  content: "ï‰";
+  content: "";
 }
 
 .fa-balance-scale:before {
-  content: "ï‰Ž";
+  content: "";
 }
 
 .fa-hourglass-o:before {
-  content: "ï‰";
+  content: "";
 }
 
 .fa-hourglass-1:before,
 .fa-hourglass-start:before {
-  content: "ï‰‘";
+  content: "";
 }
 
 .fa-hourglass-2:before,
 .fa-hourglass-half:before {
-  content: "ï‰’";
+  content: "";
 }
 
 .fa-hourglass-3:before,
 .fa-hourglass-end:before {
-  content: "ï‰“";
+  content: "";
 }
 
 .fa-hourglass:before {
-  content: "ï‰”";
+  content: "";
 }
 
 .fa-hand-grab-o:before,
 .fa-hand-rock-o:before {
-  content: "ï‰•";
+  content: "";
 }
 
 .fa-hand-stop-o:before,
 .fa-hand-paper-o:before {
-  content: "ï‰–";
+  content: "";
 }
 
 .fa-hand-scissors-o:before {
-  content: "ï‰—";
+  content: "";
 }
 
 .fa-hand-lizard-o:before {
-  content: "ï‰˜";
+  content: "";
 }
 
 .fa-hand-spock-o:before {
-  content: "ï‰™";
+  content: "";
 }
 
 .fa-hand-pointer-o:before {
-  content: "ï‰š";
+  content: "";
 }
 
 .fa-hand-peace-o:before {
-  content: "ï‰›";
+  content: "";
 }
 
 .fa-trademark:before {
-  content: "ï‰œ";
+  content: "";
 }
 
 .fa-registered:before {
-  content: "ï‰";
+  content: "";
 }
 
 .fa-creative-commons:before {
-  content: "ï‰ž";
+  content: "";
 }
 
 .fa-gg:before {
-  content: "ï‰ ";
+  content: "";
 }
 
 .fa-gg-circle:before {
-  content: "ï‰¡";
+  content: "";
 }
 
 .fa-tripadvisor:before {
-  content: "ï‰¢";
+  content: "";
 }
 
 .fa-odnoklassniki:before {
-  content: "ï‰£";
+  content: "";
 }
 
 .fa-odnoklassniki-square:before {
-  content: "ï‰¤";
+  content: "";
 }
 
 .fa-get-pocket:before {
-  content: "ï‰¥";
+  content: "";
 }
 
 .fa-wikipedia-w:before {
-  content: "ï‰¦";
+  content: "";
 }
 
 .fa-safari:before {
-  content: "ï‰§";
+  content: "";
 }
 
 .fa-chrome:before {
-  content: "ï‰¨";
+  content: "";
 }
 
 .fa-firefox:before {
-  content: "ï‰©";
+  content: "";
 }
 
 .fa-opera:before {
-  content: "ï‰ª";
+  content: "";
 }
 
 .fa-internet-explorer:before {
-  content: "ï‰«";
+  content: "";
 }
 
 .fa-tv:before,
 .fa-television:before {
-  content: "ï‰¬";
+  content: "";
 }
 
 .fa-contao:before {
-  content: "ï‰­";
+  content: "";
 }
 
 .fa-500px:before {
-  content: "ï‰®";
+  content: "";
 }
 
 .fa-amazon:before {
-  content: "ï‰°";
+  content: "";
 }
 
 .fa-calendar-plus-o:before {
-  content: "ï‰±";
+  content: "";
 }
 
 .fa-calendar-minus-o:before {
-  content: "ï‰²";
+  content: "";
 }
 
 .fa-calendar-times-o:before {
-  content: "ï‰³";
+  content: "";
 }
 
 .fa-calendar-check-o:before {
-  content: "ï‰´";
+  content: "";
 }
 
 .fa-industry:before {
-  content: "ï‰µ";
+  content: "";
 }
 
 .fa-map-pin:before {
-  content: "ï‰¶";
+  content: "";
 }
 
 .fa-map-signs:before {
-  content: "ï‰·";
+  content: "";
 }
 
 .fa-map-o:before {
-  content: "ï‰¸";
+  content: "";
 }
 
 .fa-map:before {
-  content: "ï‰¹";
+  content: "";
 }
 
 .fa-commenting:before {
-  content: "ï‰º";
+  content: "";
 }
 
 .fa-commenting-o:before {
-  content: "ï‰»";
+  content: "";
 }
 
 .fa-houzz:before {
-  content: "ï‰¼";
+  content: "";
 }
 
 .fa-vimeo:before {
-  content: "ï‰½";
+  content: "";
 }
 
 .fa-black-tie:before {
-  content: "ï‰¾";
+  content: "";
 }
 
 .fa-fonticons:before {
-  content: "ïŠ€";
+  content: "";
 }
 
 .fa-reddit-alien:before {
-  content: "ïŠ";
+  content: "";
 }
 
 .fa-edge:before {
-  content: "ïŠ‚";
+  content: "";
 }
 
 .fa-credit-card-alt:before {
-  content: "ïŠƒ";
+  content: "";
 }
 
 .fa-codiepie:before {
-  content: "ïŠ„";
+  content: "";
 }
 
 .fa-modx:before {
-  content: "ïŠ…";
+  content: "";
 }
 
 .fa-fort-awesome:before {
-  content: "ïŠ†";
+  content: "";
 }
 
 .fa-usb:before {
-  content: "ïŠ‡";
+  content: "";
 }
 
 .fa-product-hunt:before {
-  content: "ïŠˆ";
+  content: "";
 }
 
 .fa-mixcloud:before {
-  content: "ïŠ‰";
+  content: "";
 }
 
 .fa-scribd:before {
-  content: "ïŠŠ";
+  content: "";
 }
 
 .fa-pause-circle:before {
-  content: "ïŠ‹";
+  content: "";
 }
 
 .fa-pause-circle-o:before {
-  content: "ïŠŒ";
+  content: "";
 }
 
 .fa-stop-circle:before {
-  content: "ïŠ";
+  content: "";
 }
 
 .fa-stop-circle-o:before {
-  content: "ïŠŽ";
+  content: "";
 }
 
 .fa-shopping-bag:before {
-  content: "ïŠ";
+  content: "";
 }
 
 .fa-shopping-basket:before {
-  content: "ïŠ‘";
+  content: "";
 }
 
 .fa-hashtag:before {
-  content: "ïŠ’";
+  content: "";
 }
 
 .fa-bluetooth:before {
-  content: "ïŠ“";
+  content: "";
 }
 
 .fa-bluetooth-b:before {
-  content: "ïŠ”";
+  content: "";
 }
 
 .fa-percent:before {
-  content: "ïŠ•";
+  content: "";
 }
 
 .fa-gitlab:before {
-  content: "ïŠ–";
+  content: "";
 }
 
 .fa-wpbeginner:before {
-  content: "ïŠ—";
+  content: "";
 }
 
 .fa-wpforms:before {
-  content: "ïŠ˜";
+  content: "";
 }
 
 .fa-envira:before {
-  content: "ïŠ™";
+  content: "";
 }
 
 .fa-universal-access:before {
-  content: "ïŠš";
+  content: "";
 }
 
 .fa-wheelchair-alt:before {
-  content: "ïŠ›";
+  content: "";
 }
 
 .fa-question-circle-o:before {
-  content: "ïŠœ";
+  content: "";
 }
 
 .fa-blind:before {
-  content: "ïŠ";
+  content: "";
 }
 
 .fa-audio-description:before {
-  content: "ïŠž";
+  content: "";
 }
 
 .fa-volume-control-phone:before {
-  content: "ïŠ ";
+  content: "";
 }
 
 .fa-braille:before {
-  content: "ïŠ¡";
+  content: "";
 }
 
 .fa-assistive-listening-systems:before {
-  content: "ïŠ¢";
+  content: "";
 }
 
 .fa-asl-interpreting:before,
 .fa-american-sign-language-interpreting:before {
-  content: "ïŠ£";
+  content: "";
 }
 
 .fa-deafness:before,
 .fa-hard-of-hearing:before,
 .fa-deaf:before {
-  content: "ïŠ¤";
+  content: "";
 }
 
 .fa-glide:before {
-  content: "ïŠ¥";
+  content: "";
 }
 
 .fa-glide-g:before {
-  content: "ïŠ¦";
+  content: "";
 }
 
 .fa-signing:before,
 .fa-sign-language:before {
-  content: "ïŠ§";
+  content: "";
 }
 
 .fa-low-vision:before {
-  content: "ïŠ¨";
+  content: "";
 }
 
 .fa-viadeo:before {
-  content: "ïŠ©";
+  content: "";
 }
 
 .fa-viadeo-square:before {
-  content: "ïŠª";
+  content: "";
 }
 
 .fa-snapchat:before {
-  content: "ïŠ«";
+  content: "";
 }
 
 .fa-snapchat-ghost:before {
-  content: "ïŠ¬";
+  content: "";
 }
 
 .fa-snapchat-square:before {
-  content: "ïŠ­";
+  content: "";
 }
 
 .fa-pied-piper:before {
-  content: "ïŠ®";
+  content: "";
 }
 
 .fa-first-order:before {
-  content: "ïŠ°";
+  content: "";
 }
 
 .fa-yoast:before {
-  content: "ïŠ±";
+  content: "";
 }
 
 .fa-themeisle:before {
-  content: "ïŠ²";
+  content: "";
 }
 
 .fa-google-plus-circle:before,
 .fa-google-plus-official:before {
-  content: "ïŠ³";
+  content: "";
 }
 
 .fa-fa:before,
 .fa-font-awesome:before {
-  content: "ïŠ´";
+  content: "";
 }
 
 .fa-handshake-o:before {
-  content: "ïŠµ";
+  content: "";
 }
 
 .fa-envelope-open:before {
-  content: "ïŠ¶";
+  content: "";
 }
 
 .fa-envelope-open-o:before {
-  content: "ïŠ·";
+  content: "";
 }
 
 .fa-linode:before {
-  content: "ïŠ¸";
+  content: "";
 }
 
 .fa-address-book:before {
-  content: "ïŠ¹";
+  content: "";
 }
 
 .fa-address-book-o:before {
-  content: "ïŠº";
+  content: "";
 }
 
 .fa-vcard:before,
 .fa-address-card:before {
-  content: "ïŠ»";
+  content: "";
 }
 
 .fa-vcard-o:before,
 .fa-address-card-o:before {
-  content: "ïŠ¼";
+  content: "";
 }
 
 .fa-user-circle:before {
-  content: "ïŠ½";
+  content: "";
 }
 
 .fa-user-circle-o:before {
-  content: "ïŠ¾";
+  content: "";
 }
 
 .fa-user-o:before {
-  content: "ï‹€";
+  content: "";
 }
 
 .fa-id-badge:before {
-  content: "ï‹";
+  content: "";
 }
 
 .fa-drivers-license:before,
 .fa-id-card:before {
-  content: "ï‹‚";
+  content: "";
 }
 
 .fa-drivers-license-o:before,
 .fa-id-card-o:before {
-  content: "ï‹ƒ";
+  content: "";
 }
 
 .fa-quora:before {
-  content: "ï‹„";
+  content: "";
 }
 
 .fa-free-code-camp:before {
-  content: "ï‹…";
+  content: "";
 }
 
 .fa-telegram:before {
-  content: "ï‹†";
+  content: "";
 }
 
 .fa-thermometer-4:before,
 .fa-thermometer:before,
 .fa-thermometer-full:before {
-  content: "ï‹‡";
+  content: "";
 }
 
 .fa-thermometer-3:before,
 .fa-thermometer-three-quarters:before {
-  content: "ï‹ˆ";
+  content: "";
 }
 
 .fa-thermometer-2:before,
 .fa-thermometer-half:before {
-  content: "ï‹‰";
+  content: "";
 }
 
 .fa-thermometer-1:before,
 .fa-thermometer-quarter:before {
-  content: "ï‹Š";
+  content: "";
 }
 
 .fa-thermometer-0:before,
 .fa-thermometer-empty:before {
-  content: "ï‹‹";
+  content: "";
 }
 
 .fa-shower:before {
-  content: "ï‹Œ";
+  content: "";
 }
 
 .fa-bathtub:before,
 .fa-s15:before,
 .fa-bath:before {
-  content: "ï‹";
+  content: "";
 }
 
 .fa-podcast:before {
-  content: "ï‹Ž";
+  content: "";
 }
 
 .fa-window-maximize:before {
-  content: "ï‹";
+  content: "";
 }
 
 .fa-window-minimize:before {
-  content: "ï‹‘";
+  content: "";
 }
 
 .fa-window-restore:before {
-  content: "ï‹’";
+  content: "";
 }
 
 .fa-times-rectangle:before,
 .fa-window-close:before {
-  content: "ï‹“";
+  content: "";
 }
 
 .fa-times-rectangle-o:before,
 .fa-window-close-o:before {
-  content: "ï‹”";
+  content: "";
 }
 
 .fa-bandcamp:before {
-  content: "ï‹•";
+  content: "";
 }
 
 .fa-grav:before {
-  content: "ï‹–";
+  content: "";
 }
 
 .fa-etsy:before {
-  content: "ï‹—";
+  content: "";
 }
 
 .fa-imdb:before {
-  content: "ï‹˜";
+  content: "";
 }
 
 .fa-ravelry:before {
-  content: "ï‹™";
+  content: "";
 }
 
 .fa-eercast:before {
-  content: "ï‹š";
+  content: "";
 }
 
 .fa-microchip:before {
-  content: "ï‹›";
+  content: "";
 }
 
 .fa-snowflake-o:before {
-  content: "ï‹œ";
+  content: "";
 }
 
 .fa-superpowers:before {
-  content: "ï‹";
+  content: "";
 }
 
 .fa-wpexplorer:before {
-  content: "ï‹ž";
+  content: "";
 }
 
 .fa-meetup:before {
-  content: "ï‹ ";
+  content: "";
 }
 
 .sr-only {
@@ -14156,6 +14157,10 @@ p.white {
 
 .radius-image {
   border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
 }
 
 .radius-image-full {
@@ -14271,13 +14276,13 @@ a.link-style1 {
 }
 
 .title-subhny {
-  font-size: 14px;
+  font-size: 44px;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 30px;
   letter-spacing: 1px;
-  color: var(--primary-color);
-  display: block;
+  color: var(--red-background);
+ /*  display: NONE; */
 }
 
 .title-subhny span {
@@ -14612,6 +14617,7 @@ header {
   height: 120px;
   display: grid;
   align-items: center;
+  
 }
 
 header.nav-fixed {
@@ -14621,6 +14627,21 @@ header.nav-fixed {
   border-bottom: none;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
 }
+header.nav-fixed #navmovil .nav-link  {
+  color: rgb(23, 23, 23);
+}
+/* header #logomovil{
+display: block;
+} */
+/* header #logodesk{
+  display: none;
+}
+header #logomovil{
+  display: none;
+}
+header .nav-fixed #logomovil{
+  display: block;
+} */
 
 .navbar-nav .show>,
 .navbar-nav .nav-link.show {
@@ -14795,260 +14816,6 @@ ul.social-icons-top a:hover span.fa {
 }
 
 /*--//right-menu--*/
-/*--/fixed--*/
-.nav-fixed .navbar-expand-lg .navbar-nav .nav-link {
-  color: var(--heading-color);
-  opacity: 0.95;
-}
-
-.nav-fixed .navbar-brand,
-.nav-fixed .menu-overlay-left .side-menu-hny span {
-  color: var(--heading-color);
-}
-
-.nav-fixed .navbar-expand-lg .navbar-nav li.nav-item.active .nav-link {
-  color: var(--primary-color);
-}
-
-.nav-fixed .navbar-expand-lg .navbar-nav li.nav-item .nav-link:hover {
-  color: var(--primary-color);
-}
-
-.nav-fixed .navbar-expand-lg .navbar-brand span.fa {
-  color: var(--primary-color);
-}
-
-.nav-fixed .navbar-expand-lg .navbar-brand span {
-  color: var(--primary-color);
-}
-
-.nav-fixed i.gg-moon {
-  color: var(--heading-color);
-}
-
-.nav-fixed .top-righthny-buttton .btn-style.btn-white {
-  background: var(--primary-color);
-  border: 2px solid var(--primary-color);
-  color: #fff;
-}
-
-/*--//fixed--*/
-@media only screen and (max-width: 1440px) {
-  .navbar-expand-lg .navbar-nav .nav-item {
-    padding: 0 0px;
-  }
-  .navbar-expand-lg .navbar-nav .nav-item {
-    margin: 0 8px;
-  }
-  .navbar-expand-lg .nav_btn>li {
-    padding: 0;
-  }
-}
-
-@media only screen and (max-width: 1199px) {
-  .navbar .navbar-brand img {
-    max-width: 109px;
-  }
-
-  .navbar-expand-lg .btn-gradient {
-    padding: 10px 20px;
-    font-size: 14px;
-  }
-
-  .navbar-expand-lg .navbar-nav.nav_btn>li {
-    margin-left: 0px;
-  }
-
-  .navbar-expand-lg .navbar-nav.nav_btn a.btn {
-    padding: 10px 20px;
-  }
-
-  .navbar-expand-lg .navbar-nav.nav_btn a {
-    font-size: 14px;
-    padding: 0px;
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .navbar .navbar-brand img {
-    max-width: 140px;
-  }
-
-  .navbar-toggler {
-    border: 0 none;
-    font-size: 24px;
-  }
-
-  .navbar .search-right {
-    margin: 0px auto;
-  }
-
-  .navbar-collapse {
-    -webkit-animation-name: none;
-    animation-name: none;
-    float: left;
-    text-align: center;
-    width: 100%;
-    background: var(--bg-color);
-    padding: 20px;
-    margin-top: 16px;
-    border-radius: var(--border-radius);
-    box-shadow: 0 6px 19px rgba(0, 0, 0, 0.05);
-  }
-
-  .navbar-nav:last-child {
-    border: 1px solid var(--border-color);
-  }
-
-  .navbar-expand-lg .navbar-nav .nav-item {
-    -webkit-animation-name: none;
-    animation-name: none;
-    padding: 0;
-  }
-
-  .navbar-expand-lg .navbar-nav.nav_btn>li {
-    padding-bottom: 10px;
-  }
-
-  .navbar-nav .dropdown-menu {
-    text-align: center;
-  }
-
-  .navbar-nav .dropdown-menu .dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-
-  .navbar-expand-lg .navbar-nav .nav-item .nav-link.active::before {
-    bottom: 0;
-  }
-
-  .navbar-expand-lg .navbar-nav .nav-link {
-    display: inline-block;
-    padding: 7px 0;
-    text-align: center;
-  }
-
-  header {
-    height: auto;
-  }
-
-  .navbar {
-    padding: 15px 0;
-  }
-
-  .navbar-expand-lg .navbar-nav .dropdown-menu {
-    transform: translateX(0px);
-    border: 1px solid var(--border-color-light);
-  }
-
-  .navbar-expand-lg .navbar-nav .dropdown-menu:before {
-    border: 1px solid var(--border-color-light);
-    border-right: none;
-    border-bottom: none;
-  }
-
-  header.nav-fixed {
-    height: auto;
-  }
-
-  .navbar-expand-lg .navbar-nav .nav-link {
-    display: block;
-    color: var(--heading-color);
-  }
-
-  .navbar .search-right a {
-    color: var(--heading-color);
-  }
-
-  .navbar-toggler-icon {
-    background-image: none;
-    padding: 0;
-    width: 34px;
-    height: 34px;
-    display: inline-block;
-    background: #272121;
-    border-radius: 4px;
-    text-align: center;
-  }
-
-  .navbar-toggler-icon.fa {
-    font-size: 20px;
-    line-height: 1.2em;
-    color: #fff;
-    background: var(--primary-color);
-    line-height: 34px;
-  }
-
-  .navbar-toggler {
-    padding: 0rem 0rem !important;
-  }
-
-  .navbar-expand-lg .navbar-nav .show>.nav-link,
-  .navbar-expand-lg .navbar-nav .active>.nav-link,
-  .navbar-expand-lg .navbar-nav .nav-link.show,
-  .navbar-expand-lg .navbar-nav .nav-link.active,
-  .navbar-expand-lg .navbar-nav .nav-link:hover {
-    color: var(--heading-color);
-    opacity: 1;
-  }
-
-  .top-quote .transparent-btn {
-    color: var(--heading-color);
-  }
-
-  .navbar .search-right .search__input {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .navbar-brand img {
-    max-width: 200px;
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .navbar-expand-lg a.nav-link.donate.btn.btn-style {
-    display: inline-block;
-    padding: 0px 40px;
-  }
-
-  button.navbar-toggler .icon-close {
-    display: block;
-  }
-
-  button.navbar-toggler .icon-expand {
-    display: none;
-  }
-
-  button.navbar-toggler.collapsed .icon-close {
-    display: none;
-  }
-
-  button.navbar-toggler.collapsed .icon-expand {
-    display: block;
-  }
-
-  .mobile-position {
-    position: absolute;
-    right: 50px;
-    top: 21px;
-  }
-}
-
-@media only screen and (max-width:992px) {
-  .menu-overlay-left .menuopen {
-        cursor: pointer;
-        color: var(--heading-color);
-        margin: 10px 20px;
-  }
-}
-
-@media only screen and (max-width:600px) {
-  li.nav-item.search-right {
-      display: none;
-  }
-}
 
 
 /*--/banner--*/
@@ -15121,6 +14888,7 @@ ul.social-icons-top a:hover span.fa {
     min-height: 400px;
   }
 }
+
 /*--//banner--*/
 /*--/w3l-clients--*/
 .w3l-clients {
@@ -15901,6 +15669,7 @@ p.home-w3l-content-grid-inf a {
 .w3l-clients-1 blockquote q::before{
   display:none;
 }
+
 .w3l-clients-1 .test-img {
   width: 70px;
   height: 70px;
@@ -16516,178 +16285,8 @@ h2.title {
   }
 }
 
-/*-- //team --*/
-/*--Elements--*/
-pre {
-  color: #666;
-}
-
-.bootstrap-components .breadcrumb {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0.75rem 1rem;
-  margin-bottom: 1rem;
-  list-style: none;
-  background-color: var(--bg-grey);
-  border-radius: 0.25rem;
-}
-
-.bootstrap-components li.breadcrumb-item a {
-  color: var(--primary-color);
-}
-
-h3.inner-heading,
-h3.media-heading {
-  text-transform: capitalize;
-  letter-spacing: 0px;
-  font-weight: 600;
-  font-size: 24px;
-  color: var(--heading-color);
-}
-
-h3.component-heading {
-  text-transform: capitalize;
-  letter-spacing: 0px;
-  font-weight: 600;
-  font-size: 18px;
-  text-align: center;
-  background: var(--bg-light);
-  padding: 12px 10px;
-  background: rgba(225, 225, 225, 0.5);
-}
-
-.components-info {
-  padding: 0 0 10px 0px;
-}
-
-.bootstrap-components .modal-content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  pointer-events: auto;
-  background-color: var(--bg-grey);
-  background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
-  outline: 0;
-}
-
-.modal-button-sytle button.btn {
-  background: var(--primary-color);
-  padding: 11px 30px;
-  border-radius: 6px;
-  letter-spacing: .5px;
-  text-transform: capitalize;
-  font-size: 15px;
-  color: #fff;
-  border: none;
-}
-
-.components {
-  height: 100%;
-}
-
-.modal-footer button.btn-primary {
-  background: var(--primary-color);
-  border: none;
-  border-radius: 6px;
-  padding: 9px 20px;
-}
-.modal-body {
-  color: var(--font-color);
-  line-height: 25px;
-}
-
-.media-body h5 {
-  font-weight: 600;
-  font-size: 20px;
-  color: var(--heading-color);
-}
-
-
-.code {
-  background: var(--bg-grey);
-  padding: 20px 30px;
-  margin-top: 10px;
-  border-radius: var(--border-radius);
-}
-
-.na {
-  color: var(--font-color);
-}
-
-.s {
-  color: var(--font-color);
-}
-
-.c {
-  color: var(--font-color);
-}
-
-.jumbotron,
-.list-group-item,
-.breadcrumb,
-.typo-w3 .form-control,
-.bd-example-container-body,
-.components .form-control {
-  background-color: var(--bg-grey);
-  border-radius: var(--border-radius);
-}
-
-.bootstrap-components .card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: var(--bg-grey);
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
-}
-
-/*--//Elements--*/
-/*--//inner-pages--*/
+/*-- //team--*/
 /*--/Blog-posts--*/
-.text-11 .text11-content h4 {
-  font-size: 32px;
-  line-height: 40px;
-  color: var(--heading-color);
-  font-weight: 600;
-  margin-bottom: 10px;
-  margin-top: 40px;
-}
-
-.text-11 .text11-content h5 {
-  font-size: 26px;
-  line-height: 31px;
-  color: #232527;
-  font-weight: 600;
-}
-
-.text-11 .text11-content a.next {
-  display: inline-block;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 45px;
-  margin-top: 30px;
-  color: #232527;
-}
-
-.text-11 .text11-content a.prev {
-  display: inline-block;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 45px;
-  margin-top: 30px;
-  color: #232527;
-}
-
-.prev-next {
-  display: flex;
-  justify-content: space-between;
-}
 
 .text-11 .text11-content ul.blog-list {
   padding-left: 15px;
@@ -16759,14 +16358,6 @@ h3.component-heading {
   color: var(--primary-color);
 }
 
-.text-11 h3.aside-title {
-  font-size: 30px;
-  line-height: 34px;
-  color: var(--heading-color);
-  font-weight: 600;
-  margin-bottom: 30px;
-  text-transform: capitalize;
-}
 
 .text-11 .card {
   border: none;
@@ -16808,195 +16399,6 @@ h3.component-heading {
   color: var(--primary-color);
 }
 
-.text-11 .history-info {
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.text-11 .comments h5 {
-  font-size: 18px;
-  line-height: 23px;
-  color: var(--heading-color);
-  font-weight: 600;
-  margin: 0;
-  margin-bottom: 5px;
-}
-
-.text-11 .comments-grid-right ul li {
-  display: inline-block;
-  color: #888;
-  font-size: 16px;
-  vertical-align: middle;
-}
-
-.text-11 .comments-grid-right ul li a {
-  font-weight: 600;
-}
-
-.text-11 .text11-content h4.heading-no-margin {
-  margin: 0;
-}
-
-.text-11 .text11-content .social {
-  align-self: center;
-}
-
-.text-11 img.margin-top {
-  margin-top: 30px;
-}
-
-.text-11 .text11-content .social li p {
-  font-size: 26px;
-  color: var(--heading-color);
-}
-
-.text-11 .social-share-blog {
-  display: grid;
-  grid-auto-flow: column;
-  grid-gap: 30px;
-}
-
-.text-11 .text11-content h5.quote {
-  padding: 30px;
-  border-left: 4px solid var(--primary-color);
-  background: var(--bg-grey);
-  margin: 50px 0;
-  font-size: 26px;
-  line-height: 36px;
-  font-weight: 600;
-  color: var(--heading-color);
-  border-radius: 8px;
-}
-
-.text-list ol li {
-  font-size: 1.2em;
-  line-height: 28px;
-  margin: 10px 0;
-  color: var(--font-color);
-  list-style-type: disc;
-  font-weight: 400;
-}
-
-ul.comment {
-  display: grid;
-  grid-auto-flow: column;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-
-.text-11 .leave-comment-form input[type="text"],
-.text-11 .leave-comment-form input[type="email"],
-.text-11 .leave-comment-form textarea {
-  outline: none;
-  border: none;
-  padding: 13px 20px;
-  font-size: 1.2em;
-  line-height: 28px;
-  color: var(--font-color);
-  width: 100%;
-  height: inherit;
-  border-radius: 0;
-  background: var(--bg-grey);
-  border-radius: var(--border-radius);
-  border: 1px solid transparent;
-}
-
-.text-11 .leave-comment-form input[type="text"]:focus,
-.text-11 .leave-comment-form input[type="email"]:focus,
-.text-11 .leave-comment-form textarea:focus {
-  box-shadow: none;
-  border: 1px solid var(--primary-color);
-  background: var(--bg-color);
-}
-
-.text-11 .comments {
-  margin: 60px 0;
-}
-
-.text-11 textarea.form-control {
-  height: 150px;
-  font-family: inherit;
-  resize: none;
-}
-
-.text-11 .features-2 .feature-main {
-  padding-top: 40px;
-  padding-bottom: 0px;
-}
-
-.text-11 .media {
-  display: grid;
-  grid-auto-flow: column;
-  grid-gap: 15px;
-  margin-bottom: 30px;
-  position: relative;
-  border: 1px solid var(--border-color-light);
-  padding: 30px 20px;
-  border-radius: var(--border-radius);
-  -webkit-border-radius: var(--border-radius);
-  -moz-border-radius: var(--border-radius);
-  -ms-border-radius: var(--border-radius);
-  -o-border-radius: var(--border-radius);
-}
-
-.text-11 .media a.comment-img {
-  left: 0px;
-  top: 0px;
-  width: 85px;
-  height: 85px;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.text-11 .feature-main .img1 {
-  padding: 20px 10px;
-  border: 1px solid rgba(130, 152, 171, 0.2);
-}
-
-.text-11 .feature-main .img1:hover {
-  background: #fff;
-}
-
-.text-11 .feature-main .img1 img {
-  width: 35px;
-}
-
-.text-11 .features-2 .img1 h4 {
-  margin-top: 10px;
-}
-
-.text11-content img {
-  border-radius: var(--border-radius);
-}
-
-.text-11 .social li {
-  display: inline-block;
-}
-
-.text-11 ul.social li a {
-  display: inline-block;
-  margin: 0;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  background: var(--bg-grey);
-  text-align: center;
-  margin-right: 6px;
-  color: var(--primary-color);
-  border-radius: 8px;
-  font-size: 15px;
-}
-
-.text-11 ul.social li span.fa {
-  text-align: center;
-  line-height: 40px;
-}
-
-.text-11 ul.social li a:hover {
-  background-color: var(--primary-color);
-  color: #fff;
-}
-
 a.blog-desc1 {
   font-size: 22px;
   color: var(--heading-color);
@@ -17009,613 +16411,20 @@ a.blog-desc1 {
 a.blog-desc1:hover {
   color: var(--primary-color);
 }
-
-.author a {
-  color: var(--heading-color);
-  font-size: 18px;
-}
-
-.text-11 .card.empty-post {
-  background: var(--bg-grey);
-  padding: 30px;
-  border-radius: var(--border-radius);
-}
-
-.text-11 .card-body span.fa.fa-quote-left {
-  font-size: 30px;
-  color: var(--primary-color);
-}
-
-.text-11 .page-numbers {
-  font-size: 20px;
-  margin: 0 5px;
-  font-weight: 600;
-}
-
-.text-11 .pagination li {
-  margin: 0 5px;
-}
-
-.text-11 a.page-link.page-prev,
-.text-11 a.page-link.page-next {
-  border: none;
-  background-color: transparent;
-  line-height: 30px;
-  box-shadow: none;
-}
-
-.text-11 ul.pagination {
-  border-top: 1px solid var(--border-color);
-  padding-top: 30px;
-}
-
-.text-11 .active a.page-link.page-number {
-  background: var(--primary-color);
-  color: #fff;
-}
-
-.text-11 a.page-link.page-number {
-  color: var(--heading-color);
-  font-weight: 600;
-  font-size: 17px;
-  padding: 0;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  border-radius: 8px;
-  border: 1px solid var(--bg-grey);
-  background-color: var(--bg-grey);
-}
-
-.text-11.page-item.active .page-link.page-number,
-.text-11 .page-link.page-number:hover {
-  background-color: transparent;
-  color: var(--primary-color);
-}
-
-@media (max-width: 992px) {
-  .text-11 .text11-content h5.quote {
-    margin: 40px 0;
-    font-size: 20px;
-    line-height: 30px;
-  }
-}
-
-@media (max-width: 568px) {
-  .text-11 .text11-content h4 {
-    font-size: 26px;
-    line-height: 36px;
-}
-  .text-11 .text11-content h5 {
-    font-size: 24px;
-    line-height: 30px;
-  }
-
-  .text-11 .text11-content a.next,
-  .text-11 .text11-content a.prev {
-    font-size: 32px;
-    line-height: 40px;
-    margin-top: 10px;
-  }
+@media (max-width:640px) {
   .text-11 a.blog-desc {
     display: block;
     font-size: 22px;
     line-height: 32px;
   }
-}
-
-@media (max-width: 480px) {
-  .text-11 .text11-content p {
-    margin-top: 15px;
-  }
-
-  .text-11 .text11-content h5.quote {
-    font-size: 24px;
-    line-height: 32px;
-  }
-
   .text-11 .text11-content h6 {
     font-size: 15px;
   }
 
-  .text-11 .text11-content a.category {
-    font-size: 15px;
-    padding-left: 15px;
-  }
-
-  .text-11 .text11-content h5 {
-    font-size: 20px;
-    line-height: 25px;
-  }
-
-  .text-11 .comments {
-    margin: 30px 0;
-  }
-
-  .text-11 .text11-content a.next,
-  .text-11 .text11-content a.prev {
-    font-size: 30px;
-    line-height: 35px;
-  }
-
-  .media-grid.even-grid {
-    margin-left: 0px;
-  }
-
-  .text-11 .media-body.comments-grid-right {
-    padding-left: 5px;
-  }
-}
-
-@media (max-width: 415px) {
-  .text-11 .social-share-blog {
-    grid-auto-flow: row;
-    grid-gap: 15px;
-  }
-
-  .text-11 .text11-content .social {
-    text-align: left;
-  }
-
-  .text-11 .text11-content h4 {
-    font-size: 26px;
-    margin-bottom: 10px;
-    line-height: 30px;
-  }
-
-  ul.comment,
-  .text-11 .media {
-    grid-auto-flow: row;
-    grid-gap: 10px;
-  }
-
-  .text-11 ul.social li {
-    margin-right: 0px;
-  }
-
-  .column3 a {
-    font-size: 16px;
-  }
-
-  .text-11 h3.aside-title {
-    font-size: 28px;
-    line-height: 34px;
-  }
-}
-
-@media (max-width: 415px) {
-  .text-11 ul.social li:first-child {
-    display: block;
-    margin-bottom: 15px;
-  }
-}
-
-@media (max-width: 384px) {
-  .text-11 .text11-content h5.quote {
-    font-size: 22px;
-    line-height: 30px;
-  }
-}
-/*Search Box Widget*/
-.sidebar-title h4 {
-  font-size: 26px;
-  line-height: 32px;
-  color: var(--heading-color);
-  font-weight: 600;
-  margin-bottom: 30px;
-}
-.sidebar-widget {
-  margin-bottom: 70px;
-  padding-left: 20px;
-}
-.sidebar .search-box .form-group {
-  position: relative;
-  margin: 0px;
-}
-.sidebar .search-box .form-group input[type="text"],
-.sidebar .search-box .form-group input[type="search"] {
-  position: relative;
-  line-height: 28px;
-  padding: 10px 50px 10px 20px;
-  border: 1px solid var(--border-color);
-  background: none;
-  display: block;
-  font-size: 19px;
-  width: 100%;
-  height: 55px;
-  color: var(--para-color);
-  border-radius: 8px;
-  outline: none;
-}
-
-.sidebar .search-box .form-group input[type="text"]:focus,
-.sidebar .search-box .form-group input[type="search"]:focus {
-  border: 1px solid #999;
-}
-
-.sidebar .search-box .form-group button {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  height: 55px;
-  width: 50px;
-  font-size: 16px;
-  color: var(--heading-color);
-  line-height: 100%;
-  border: none;
-  background: none;
-  display: inline-block;
-  font-weight: normal;
-  text-align: center;
-  border-left: 1px solid var(--border-color);
-}
-
-/* Blog Category */
-.blog-cat {
-  position: relative;
-  padding: 0;
-}
-
-.blog-cat li {
-  position: relative;
-  border-bottom: 1px solid var(--border-color);
-  list-style-type: none;
-}
-
-.blog-cat li a {
-  position: relative;
-  color: var(--heading-color);
-  font-size: 20px;
-  font-weight: 600;
-  display: block;
-  padding: 16px 15px 16px 15px;
-}
-
-.blog-cat li a span {
-  position: absolute;
-  right: 0px;
-  top: 15px;
-  width: 27px;
-  height: 27px;
-  font-size: 12px;
-  text-align: center;
-  line-height: 27px;
-  border-radius: var(--border-radius);
-  background-color: var(--bg-grey);
-}
-
-.blog-cat li a:before {
-  position: absolute;
-  content: "\f105";
-  left: 0px;
-  top: 15px;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  display: inline-block;
-  color: var(--primary-color);
-  font-family: 'FontAwesome';
-}
-
-.twitter-feed li a:before {
-  position: absolute;
-  content: "\f099";
-  left: 0px;
-  top: 15px;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  display: inline-block;
-  color: var(--heading-color);
-  font-family: 'FontAwesome';
-}
-
-.twitter-feed li a {
-  padding: 16px 15px 16px 30px;
-}
-
-ul.blog-cat li a span.fa {
-  position: static;
-  color: var(--primary-color);
-  font-size: inherit;
-  background: none;
-}
-
-.sidebar-sticky-fix {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 100px;
-}
-
-.blog-cat li a:hover::before {
-  opacity: 1;
-}
-
-.sidebar-widget figure {
-  margin: 0 0 0rem;
-}
-
-.blog-cat li:first-child a {
-  padding-top: 0;
-}
-
-.blog-cat li:first-child a:before,
-.blog-cat li:first-child a span {
-  top: 0;
-}
-
-.blog-cat li.active a,
-.blog-cat li a:hover {
-  color: var(--primary-color);
-}
-
-/* Post Widget */
-.popular-posts .post {
-  position: relative;
-  min-height: 110px;
-  padding-left: 110px;
-  margin-bottom: 25px;
-  border-bottom: 1px solid var(--bg-grey);
-}
-
-.sidebar-widget:last-child {
-  margin-bottom: 0px;
-}
-
-.popular-posts .post .post-thumb {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 85px;
-  height: 85px;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.popular-posts .post .post-thumb img {
-  display: block;
-  width: 100%;
-  transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-}
-
-.popular-posts .post .text {
-  position: relative;
-  font-size: 20px;
-  margin: 0px 0px 10px;
-  font-weight: 600;
-  color: var(--heading-color);
-  line-height: 28px;
-}
-
-.popular-posts .post .text a {
-  color: var(--heading-color);
-  transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-}
-
-.popular-posts .post a:hover {
-  color: var(--primary-color);
-}
-
-.popular-posts .post-info {
-  position: relative;
-  font-size: 16px;
-  color: var(--font-color);
-  font-weight: 400;
-}
-
-/*Instagram Widget*/
-.sidebar .instagram-widget .images-outer {
-  position: relative;
-  margin: 0px -4px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
-}
-
-.sidebar .instagram-widget .image-box1 {
-  position: relative;
-  float: left;
-  width: 33.3333%;
-  padding: 0px 6px;
-  margin-bottom: 12px;
-}
-
-.sidebar .instagram-widget .image-box:nth-child(3),
-.sidebar .instagram-widget .image-box:nth-child(6) {
-  margin-right: 0px;
-}
-
-.images-outer a img {
-  border-radius: 8px;
-}
-
-.sidebar .instagram-widget .image-box1 .overlay-box {
-  position: absolute;
-  content: '';
-  left: 14px;
-  top: 10px;
-  bottom: 10px;
-  right: 14px;
-  display: block;
-  z-index: 1;
-  opacity: 0;
-  text-align: center;
-  padding: 8px;
-  color: #ffffff;
-  font-size: 24px;
-  line-height: 44px;
-  transition: all 300ms ease;
-  background-color: #49c0b6;
-  border-radius: 8px;
-}
-
-.sidebar .instagram-widget .image-box .overlay-box:before {
-  position: absolute;
-  top: 50%;
-  margin-left: -12px;
-  margin-top: -22px;
-  display: inline-block;
-}
-
-.sidebar .instagram-widget .image-box:hover .overlay-box {
-  opacity: 1;
-}
-
-.sidebar .instagram-widget .image-box img {
-  position: relative;
-  display: block;
-  width: 100%;
-  border-radius: 8px;
-  transition: all 300ms ease;
-}
-
-/*Tags*/
-.sidebar .popular-tags a {
-  position: relative;
-  display: inline-block;
-  line-height: 24px;
-  padding: 6px 24px 6px;
-  margin: 0px 4px 8px 0px;
-  color: var(--font-color);
-  text-align: center;
-  font-size: 18px;
-  border: 1px solid var(--bg-grey);
-  background-color: var(--bg-grey);
-  border-radius: var(--border-radius);
-}
-
-.sidebar .popular-tags a:hover {
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
-  color: #ffffff;
-}
-
-.subscribe-widget .widget-content {
-  position: relative;
-  padding: 32px 25px;
-  background-color: var(--bg-grey);
-  border-radius: 8px;
-}
-
-.subscribe-widget h5 {
-  position: relative;
-  color:var(--heading-color);
-  font-size: 22px;
-  font-weight: 600;
-  line-height: 1.3em;
-  margin-bottom: 15px;
-}
-
-/* Subscribe Form Three */
-.subscribe-form-three {
-  position: relative;
-}
-
-.subscribe-form-three .form-group {
-  position: relative;
-  display: block;
-  margin: 0;
-  width: 100%;
-  z-index: 1;
-}
-
-.subscribe-form-three .form-group input,
-.subscribe-form-three .form-group select,
-.subscribe-form-three .form-group textarea {
-  position: relative;
-  display: block;
-  width: 100%;
-  font-size: 1.2em;
-  line-height: 30px;
-  color: var(--font-color);
-  padding: 12px 25px;
-  overflow: hidden;
-  border-radius: var(--border-radius);
-  transition: all 300ms ease;
-  background-color: var(--bg-color);
-  border:1px solid var(--bg-color);
-  outline: none;
-}
-
-.subscribe-form-three .form-group input:focus,
-.subscribe-form-three .form-group select:focus,
-.subscribe-form-three .form-group textarea:focus {
-  border:1px solid var(--primary-color);
-  background-color:transparent;
-}
-
-@media (max-width: 992px) {
-  .sidebar-widget {
-    padding-left: 0px;
-  }
-}
-
-@media (max-width: 736px) {
-  .sidebar-widget {
-    margin-bottom: 50px;
-  }
 }
 
 /*--//Blog-posts--*/
-/*--/Error-Page--*/
-.w3l-error-grid {
-  background: var(--bg-color);
-}
-
-.errorhny-block h4 {
-  color: var(--primary-color);
-  font-size: 300px;
-  line-height: 280px;
-  font-weight: 900;
-  text-shadow:var(--text-shadow);
-}
-
-.errorhny-block h3 {
-  font-size: 26px;
-  margin-bottom: 22px;
-  position: relative;
-  font-weight: 600;
-  color: var(--heading-color);
-}
-
-.errorhny-block p {
-  max-width: 550px;
-  margin: auto;
-}
-@media (max-width:736px) {
-  .errorhny-block h4 {
-    font-size:200px;
-    line-height: 180px;
-  }
-}
-@media (max-width: 640px) {
-  .errorhny-block h4 {
-    font-size: 160px;
-    line-height: 180px;
-  }
-}
-
-@media (max-width:480px) {
-  .errorhny-block h4 {
-    font-size: 140px;
-    line-height: 170px;
-  }
-}
-
-/*--//Error-Page--*/
+/*--//inner-pages--*/
 /*--/contact--*/
 .w3l-contact-7 {
   background: var(--bg-color);
