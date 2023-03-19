@@ -1,9 +1,6 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
+
 <!doctype html>
-<html lang="zxx">
+<html lang="ES">
 
 <head>
   <!-- Required meta tags -->
@@ -11,22 +8,53 @@ Author URL: http://w3layouts.com
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="keywords"
     content="Digebiz Responsive web template, Bootstrap Web Templates" />
-  <title>Digebiz Corporate Category Bootstrap Responsive Web Template | About :: W3layouts</title>
+  <title>SOBRE NOSOTOS::EKODEV COMPANY</title>
   <link href="//fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600;700&display=swap"
     rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.0/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
 </head>
-
+<script>
+  $('[data-fancybox]').fancybox({
+  // Options will go here
+  buttons : [
+    'close'
+  ],
+  wheel : false,
+  transitionEffect: "slide",
+   // thumbs          : false,
+  // hash            : false,
+  loop            : true,
+  // keyboard        : true,
+  toolbar         : false,
+  // animationEffect : false,
+  // arrows          : true,
+  clickContent    : false
+});
+</script>
 <body>
-
+<style>
+  #ekodevlogo img{
+    height: 90px;
+  }
+</style>
   <!--header-->
   <header id="site-header" class="fixed-top">
     <!-- //top header -->
     <div class="container">
       <nav class="navbar navbar-expand-lg stroke px-0 py-lg-0">
-        <h1><a class="navbar-brand" href="index.html">
-            Dige<span class="sub-logo">b</span>iz</span>
+        <h1 id="ekodevlogo">
+          <a class="navbar-brand" href="index.html">
+          <img src="./assets/images/companyekodev.png" alt="">
           </a></h1>
         <!-- if logo is image enable this   
     <a class="navbar-brand" href="#index.html">
@@ -35,27 +63,35 @@ Author URL: http://w3layouts.com
         <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
           data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
           aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+          <span class="navbar-toggler-icon fa fa-solid icon-expand fa-bars"></span>
           <span class="navbar-toggler-icon fa icon-close fa-times"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mx-lg-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
+        <style>
+          #active a{
+            font-weight: 1000;
+            text-decoration: underline;
             
+          }
+        </style>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mx-lg-auto" id="navmovil">
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" id="active">
+              <a class="nav-link" href="nosotros.html">Ekodev</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contactos</a>
             </li>
             <!--/search-right-->
-            <li class="nav-item search-right ml-lg-3">
+            <li class="nav-item search-right ml-lg-2">
               <!-- /header-top-inn-->
               <div class="menu-overlay-left">
                 <div class="two-pops">
@@ -105,9 +141,15 @@ Author URL: http://w3layouts.com
           </ul>
           <!--/right-btn-->
           <div class="top-righthny-buttton">
-            <a class="btn btn-style btn-white mr-lg-5" href="contact.html">
-              Get In Touch <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
+            <a class="btn btn-danger mr-lg-5" href="asistente.html">
+              Asistente eko <img src="./assets/images/asistente.png" alt=""> </a>
           </div>
+          <div class="menu-overlay-left">
+            <div class="two-pops">
+              <!-- ASISTENTE VIRUAL -->
+
+            </div>
+           <!--  ASISTENTE VIRTUAL -->
           <!--/right-btn-->
         </div>
         <!-- toggle switch for light and dark theme -->
@@ -129,46 +171,156 @@ Author URL: http://w3layouts.com
     </div>
   </header>
   <!--/header-->
-  <!--/breadcrumb-bg-->
-  <div class="breadcrumb-bg w3l-inner-page-breadcrumb py-5">
-    <div class="container pt-lg-5 pt-md-3 p-lg-4 my-lg-3">
-      <ul class="breadcrumbs-custom-path pt-5 mt-3 text-center">
-        <li><a href="index.html">Home</a></li>
-        <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> About </li>
-      </ul>
-    </div>
+  <!-- banner section -->
+  
+
+
+<!--/breadcrumb-bg-->
+<div class="breadcrumb-bg w3l-inner-page-breadcrumb py-5">
+  <div class="container pt-lg-5 pt-md-3 p-lg-4 my-lg-3">
+    <ul class="breadcrumbs-custom-path pt-5 mt-3 text-center">
+      <li><a href="index.html">Inicio</a></li>
+      <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Sobre nosotros </li>
+    </ul>
   </div>
-  <!--//breadcrumb-bg-->
-  <!-- //w3l-inner-page-breadcrumb-->
-  <section class="w3l-about-ab" id="about">
-    <div class="midd-w3 py-5">
-      <div class="container py-lg-5 py-md-4 py-2">
-        <div class="row">
-          <div class="col-lg-5 left-wthree-img">
-            <h6 class="title-subhny">About Us</h6>
-            <h3 class="title-w3l mb-4">One of the fastest growing agency</h3>
-          </div>
-          <div class="col-lg-7 pl-lg-5 align-self">
-            <p class="">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-              ultrices in ligula. Semper at tempufddfel. Learn more about our work!
-              Lorem ipsum viverra feugiat.consectetur adipisicing dolor et amet.Lorem ipsum viverra feugiat. Pellen
-              tesque libero ut justo, ultrices in ligula. Semper at
-              tempufddfel. Learn more about our work! Lorem ipsum viverra feugiat.
-            </p>
-            <a href="services.html" class="btn btn-style btn-primary mt-lg-5 mt-4">Read More <span
-                class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
+</div>
+<!--//breadcrumb-bg-->
+<!-- //w3l-inner-page-breadcrumb-->
+<section class="w3l-about-ab pt-lg-3" id="about">
+  <div class="midd-w3 py-5">
+    <div class="container py-lg-5 py-md-4 py-2">
+      <div class="title-content text-left">
+        <h3 class="title-subhny">SOBRE NOSOTROS</h3> 
+        <h3 class="title-w3l mb-sm-5 mb-4 pb-lg-2">Soluciones digitales para  <br> el crecimiento de su emprendimiento</h3>
+      </div>
+      <style>
+        .payereko{
+          font-family: 40px;
+          position: absolute;
+          top: 50%;
+          left: 40%;
+          background: #d90000;
+          color: white;
+          width: 50px;
+          height: 50px;
+        }
+        .presentacion{
+          background-position: center;
+          background-size: cover;
+          height: 60vh;
+          width: 100%;
+        }
+        .presentacionservicios{
+          background-position: center;
+          background-size: cover;
+          height: 40vh;
+          width: 100%;
+        }
+        .presentacionservicios .btn-rep{
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          outline: none;
+          background: #f64747;
+          border: 0;
+          position: absolute;
+          top: 45%;
+          left: 45%;
+        }
+        .btn-rep {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          outline: none;
+          background: #f64747;
+          border: 0;
+          position: absolute;
+          top: 40%;
+          left: 40%;
+        }
+
+        .btn-rep::before {
+          content: "";
+          position: absolute;
+          z-index: 10;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          border-radius: 50%;
+          background: #1f3a93;
+          transform: scale(0);
+          transform-origin: 83% 86%;
+          transition-property: transform;
+          transition-duration: 0.5s;
+          transition-timing-function: ease-out;
+        }
+
+        .btn-rep.active::before {
+          transition-timing-function: ease;
+          transform: scale(1);
+        }
+
+        .btn-rep .play {
+          width: 65px;
+          height: 65px;
+          background: #fff;
+          margin-left: 15px;
+          z-index: 100;
+          clip-path: polygon(0 0, 80% 48%, 0 100%, 0% 100%);
+          transition: clip-path 0.5s ease;
+          transition-delay: 0.4s;
+        }
+
+        
+
+      </style>
+      <div class="row">
+        <div class="col-lg-5 left-wthree-img pr-lg-4">
+          <div class="mb-md-5 mb-3 presentacion" style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/images/about.webp);">
+            
+            <a data-fancybox href="https://youtu.be/i5dkP9CWLMQ">
+             
+                <button class="btn-rep">
+                  <span class="fa fa-play-circle text-white"></span>
+                  <span class="small-box"></span>
+                </button>
+            
+             <!--  <i  class="fa fa-play-circle border p-2 rounded-pill fa-5 payereko"></i> -->
+              <img  src="" alt="" class="radius-image img-fluid">
+            </a>
+           
           </div>
         </div>
+        <div class="col-lg-7 pl-lg-5 align-self mt-lg-0 mt-4">
+          <h5 class="color-3 mb-3 pr-lg-5"> EKODEV COMPANY una agencia digital e independiente encargado del desarrollo de software web y otros servicios informaticos.
+
+           
+              
+          </h5>
+          <p class="pr-lg-5">En nuestra agencia, te ofrecemos los servicios de diseño y desarrollo total de su sitio web usando las nuevas tecnologías seguras y potentes en dicho mercado. <br>
+            Como expertos en materia, te escuchamos aténtamente antes de iniciar su proyecto y te hacemos sugerencias sobre funcionalidades que creemos que vendrían muy bien para su sitio web también y a través de nuestras plantillas, le hacemos propuestas de sitios webs ya desarrollados y usted tendrá la opción de elegir una plantilla, o iniciar uno diferente.
+            
+            Te creamos sitios webs adaptables a cualquier dispositivo inteligente ya sea móvil, PC, etc....
+          </p>
+         
+          <a href="ekodev.pdf" class="btn btn-style btn-primary mt-lg-5 mt-4">PDF <span
+              class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
+        </div>
+
       </div>
     </div>
-  </section>
-  <!-- /w3l-content-2-->
+  </div>
+</section>
+<!-- /w3l-content-2-->
+
   <!-- /why-->
-  <section class="w3l-content-2 w3l-stats-1 py-5">
+  <section class="w3l-content-2 py-5">
     <div class="container py-md-5 py-2">
       <div class="title-content text-left">
-        <h6 class="title-subhny">Why Us</h6>
-        <h3 class="title-w3l mb-sm-5 mb-4 pb-lg-2">Our Working Process To Help <br>Your Boost Your Business</h3>
+        <h6 class="title-subhny">POR QUE ELEGIRNOS?</h6>
+        <h3 class="title-w3l mb-sm-5 mb-4 pb-lg-2">Lo que nos caracteriza</h3>
+       
       </div>
       <div class="row whybox-wrap">
         <div class="col-lg-6 whybox-wrap-left pr-lg-5 align-self">
@@ -176,10 +328,12 @@ Author URL: http://w3layouts.com
             <div class="whybox-wrap-grid mb-lg-5 mb-4">
               <div class="whybox-wrap-grid-inf">
                 <div class="icon">
-                  <span class="fa fa-thumbs-up"></span>
+                  <span class="">
+                    <img src="./assets/images/estrategia.png" alt="">
+                  </span>
                 </div>
                 <div class="info">
-                  <h4><a href="#url"> Perfect Strategy</a></h4>
+                  <h4><a href="#url"> Estretegia perfecta de trabajo</a></h4>
                 </div>
               </div>
               <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit. </p>
@@ -187,10 +341,12 @@ Author URL: http://w3layouts.com
             <div class="whybox-wrap-grid mb-lg-5 mb-4">
               <div class="whybox-wrap-grid-inf">
                 <div class="icon">
-                  <span class="fa fa-lightbulb-o"></span>
+                  <span class="">
+                    <img src="./assets/images/ideas.png" alt="">
+                  </span>
                 </div>
                 <div class="info">
-                  <h4><a href="#url">Innovative Ideas</a></h4>
+                  <h4><a href="#url">Ideas innovadoras</a></h4>
                 </div>
               </div>
               <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit. </p>
@@ -198,10 +354,12 @@ Author URL: http://w3layouts.com
             <div class="whybox-wrap-grid mb-lg-5 mb-4">
               <div class="whybox-wrap-grid-inf">
                 <div class="icon">
-                  <span class="fa fa-paper-plane"></span>
+                  <span class="">
+                    <img src="./assets/images/soluciones.png" alt="">
+                  </span>
                 </div>
                 <div class="info">
-                  <h4><a href="#url"> Effective Solutions</a></h4>
+                  <h4><a href="#url"> Soluciones efectivas</a></h4>
                 </div>
               </div>
               <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit. </p>
@@ -209,175 +367,235 @@ Author URL: http://w3layouts.com
             <div class="whybox-wrap-grid mb-lg-5 mb-4">
               <div class="whybox-wrap-grid-inf">
                 <div class="icon">
-                  <span class="fa fa-laptop"></span>
+                  <span class="">
+                    <img src="./assets/images/002-clientes-1.png" alt="">
+                  </span>
                 </div>
                 <div class="info">
-                  <h4><a href="#url"> Testing & Lunching</a></h4>
+                  <h4><a href="#url"> Garantías para nuestros clientes
+                  </a></h4>
                 </div>
               </div>
               <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit. </p>
             </div>
+            
           </div>
         </div>
-        <div class="col-lg-6 whybox-wrap-img pl-lg-5">
+        
+        <div class="col-lg-6 whybox-wrap-img pl-lg-5 mt-lg-0 mt-4">
           <div class="imgw3l-ab mb-md-5 mb-3">
-            <img src="assets/images/ab2.jpg" alt="" class="radius-image img-fluid">
+            <img src="assets/images/elijanos.webp" alt="" class="radius-image img-fluid">
           </div>
+          <a href="about.html" class="btn btn-style btn-primary mt-lg-5 mt-4">Saber mas <span
+            class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
         </div>
 
       </div>
     </div>
   </section>
   <!-- //w3l-why-->
+
 <!--/w3l-circles-->
 <section class="w3l-circles" id="stats">
-  <div class="midd-w3 py-5">
-    <div class="container py-lg-5 py-md-3 py-2">
-      <div class="title-content text-left">
-        <h6 class="title-subhny">Experts in field</h6>
-        <h3 class="title-w3l mb-sm-5 mb-4 pb-lg-2"> What makes us
-          <br>special?</h3>
+<div class="midd-w3 py-5">
+  <div class="container py-lg-5 py-md-3 py-2">
+    <div class="title-content text-left">
+      <h6 class="title-subhny">EXPERTOS EN CAMPO</h6>
+      <h3 class="title-w3l mb-sm-5 mb-4 pb-lg-2">¿Qué nos hace
+        especiales?</h3>
+    </div>
+    <div class="row whybox-wrap">
+      
+      <div class="col-lg-6 whybox-wrap-left pr-lg-5 align-self">
+        <div class="whybox-inner-content">
+
+
+
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Experiencia y habilidades
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Creatividad y originalidad
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Atención al cliente
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree4">
+      <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree4" aria-expanded="false" aria-controls="flush-collapseThree4">
+        Tecnología de vanguardia
+      </button>
+    </h2>
+    <div id="flush-collapseThree4" class="accordion-collapse collapse" aria-labelledby="flush-headingThree4" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree5">
+      <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree5" aria-expanded="false" aria-controls="flush-collapseThree5">
+        Equipo flexible:
+      </button>
+    </h2>
+    <div id="flush-collapseThree5" class="accordion-collapse collapse" aria-labelledby="flush-headingThree5" data-bs-parent="#accordionFlushExample5">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+
+</div>
+
+
+
+          
+          
+        </div>
+      </div>
+      
+      <div class="col-lg-6 whybox-wrap-img pl-lg-5 mt-lg-0 mt-4">
+        <div class="imgw3l-ab mb-md-5 mb-3">
+          <img src="assets/images/expertos.jpg" alt="" class="radius-image img-fluid">
+        </div>
+       
       </div>
 
-      <div class="position-relative">
-        <div class="progress-circles">
-          <div class="circle1">
-            <div id="progress" data-dimension="200" data-text="65%" data-fontsize="36" data-percent="65"
-              data-fgcolor="#1769ff" data-bgcolor="#eee" data-width="15" data-bordersize="5" data-animationstep="2">
+    </div>
+   
+  </div>
+</div>
+</section>
+<!--//w3l-circles-->
+
+<!--/team-sec-->
+<section class="w3l-team-main" id="team">
+  <div class="team py-5">
+    <div class="container py-lg-5">
+      <h6 class="title-subhny text-center">NUESTRO EQUIPO</h6>
+      <h3 class="title-w3l text-center">Conozca a nuestro equipo</h3>
+      <div class="row team-row">
+        <div class="col-lg-4 col-6 team-wrap mt-5">
+          <div class="team-member text-center">
+            <div class="team-img">
+              <img src="assets/images/team1.jpg" alt="" class="radius-image">
+              <div class="overlay-team">
+                <div class="team-details text-center">
+                  <div class="socials mt-20">
+                    <a href="#url">
+                      <span class="fa fa-facebook-f"></span>
+                    </a>
+                    <a href="#url">
+                      <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#url">
+                      <span class="fa fa-instagram"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <h4>Years of operation</h4>
+            <a href="#url" class="team-title">EKO BINDANG JUAN ANTONIO NSUE</a>
+            <p>CEO Y FUNDADOR DE EKODEV</p>
           </div>
-          <div class="circle1">
-            <div id="progress1" data-dimension="200" data-text="75%" data-fontsize="36" data-percent="75"
-              data-fgcolor="#1769ff" data-bgcolor="#eee" data-width="15" data-bordersize="5" data-animationstep="2">
+        </div>
+        <!-- end team member -->
+
+        <div class="col-lg-4 col-6 team-wrap mt-5">
+          <div class="team-member text-center">
+            <div class="team-img">
+              <img src="assets/images/team3.jpg" alt="" class="radius-image">
+              <div class="overlay-team">
+                <div class="team-details text-center">
+                  <div class="socials mt-20">
+                    <a href="#url">
+                      <span class="fa fa-facebook-f"></span>
+                    </a>
+                    <a href="#url">
+                      <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#url">
+                      <span class="fa fa-instagram"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <h4>Specialists</h4>
+            <a href="#url" class="team-title">Claire Daniel</a>
+            <p>Customer Officer</p>
           </div>
-          <div class="circle1">
-            <div id="progress2" data-dimension="200" data-text="85%" data-fontsize="36" data-percent="85"
-              data-fgcolor="#1769ff" data-bgcolor="#eee" data-width="15" data-bordersize="5" data-animationstep="2">
+        </div>
+        <!-- end team member -->
+
+        <div class="col-lg-4 col-6 team-wrap mt-5">
+          <div class="team-member last text-center">
+            <div class="team-img">
+              <img src="assets/images/team2.jpg" alt="" class="radius-image">
+              <div class="overlay-team">
+                <div class="team-details text-center">
+                  <div class="socials mt-20">
+                    <a href="#url">
+                      <span class="fa fa-facebook-f"></span>
+                    </a>
+                    <a href="#url">
+                      <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#url">
+                      <span class="fa fa-instagram"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <h4>Satisfied Clients</h4>
+            <a href="#url" class="team-title">Daniel Hunt</a>
+            <p> Excutive Officer</p>
           </div>
-          <div class="circle1">
-            <div id="progress3" data-dimension="200" data-text="90%" data-fontsize="36" data-percent="90"
-              data-fgcolor="#1769ff" data-bgcolor="#eee" data-width="15" data-bordersize="5" data-animationstep="2">
-            </div>
-            <h4>Projects deliverd</h4>
-          </div>
+        </div>
+        <!-- end team member -->
+      </div>
+    </div>
+  </div>
+</section>
+<!--//team-sec-->
+
+<!-- /w3l-content-5-->
+<section class="w3l-content-5 py-5">
+  <div class="content-4-main py-lg-5 py-md-4">
+    <div class="container">
+      <div class="content-info-in row">
+        <div class="content-left col-lg-8">
+          <h6 class="title-subhny">UNETE A NOSOTROS</h6>
+          <h3 class="title-w3l two">Te gustaria formar parte de nuestro equipo de trabajo?</h3>
+        </div>
+        <div class="content-right col-lg-4 mt-lg-0 mt-4 text-lg-right">
+          <a href="contact.html" class="btn btn-style btn-white mt-md-5 mt-4">Escribenos <span
+              class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!--//w3l-circles-->
-  <!-- /w3l-content-5-->
-  <section class="w3l-content-5 py-5">
-    <div class="content-4-main py-lg-5 py-md-4">
-      <div class="container">
-        <div class="content-info-in row">
-          <div class="content-left col-lg-8">
-            <h6 class="title-subhny">24/7 Active Suport Team</h6>
-            <h3 class="title-w3l two">Need Immediate Support Or <br> Any Help?</h3>
-          </div>
-          <div class="content-right col-lg-4 mt-lg-0 mt-4 text-lg-right">
-            <a href="contact.html" class="btn btn-style btn-white mt-md-5 mt-4">Meet With Us <span
-                class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /w3l-content-5-->
-  <!--/team-sec-->
-  <section class="w3l-team-main" id="team">
-    <div class="team py-5">
-      <div class="container py-lg-5">
-        <h6 class="title-subhny text-center">Our Staff</h6>
-        <h3 class="title-w3l text-center">Meet our team</h3>
-        <div class="row team-row">
-          <div class="col-lg-4 col-6 team-wrap mt-5">
-            <div class="team-member text-center">
-              <div class="team-img">
-                <img src="assets/images/team1.jpg" alt="" class="radius-image">
-                <div class="overlay-team">
-                  <div class="team-details text-center">
-                    <div class="socials mt-20">
-                      <a href="#url">
-                        <span class="fa fa-facebook-f"></span>
-                      </a>
-                      <a href="#url">
-                        <span class="fa fa-twitter"></span>
-                      </a>
-                      <a href="#url">
-                        <span class="fa fa-instagram"></span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a href="#url" class="team-title">Daniel jacobs</a>
-              <p>Markrting Officer</p>
-            </div>
-          </div>
-          <!-- end team member -->
+<!-- /w3l-content-5-->
 
-          <div class="col-lg-4 col-6 team-wrap mt-5">
-            <div class="team-member text-center">
-              <div class="team-img">
-                <img src="assets/images/team3.jpg" alt="" class="radius-image">
-                <div class="overlay-team">
-                  <div class="team-details text-center">
-                    <div class="socials mt-20">
-                      <a href="#url">
-                        <span class="fa fa-facebook-f"></span>
-                      </a>
-                      <a href="#url">
-                        <span class="fa fa-twitter"></span>
-                      </a>
-                      <a href="#url">
-                        <span class="fa fa-instagram"></span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a href="#url" class="team-title">Claire Daniel</a>
-              <p>Customer Officer</p>
-            </div>
-          </div>
-          <!-- end team member -->
 
-          <div class="col-lg-4 col-6 team-wrap mt-5">
-            <div class="team-member last text-center">
-              <div class="team-img">
-                <img src="assets/images/team2.jpg" alt="" class="radius-image">
-                <div class="overlay-team">
-                  <div class="team-details text-center">
-                    <div class="socials mt-20">
-                      <a href="#url">
-                        <span class="fa fa-facebook-f"></span>
-                      </a>
-                      <a href="#url">
-                        <span class="fa fa-twitter"></span>
-                      </a>
-                      <a href="#url">
-                        <span class="fa fa-instagram"></span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a href="#url" class="team-title">Daniel Hunt</a>
-              <p> Excutive Officer</p>
-            </div>
-          </div>
-          <!-- end team member -->
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--//team-sec-->
   
   <!-- footer -->
   <section class="w3l-footer-29-main">
@@ -387,35 +605,34 @@ Author URL: http://w3layouts.com
           <div class="col-lg-4 footer-list-29 footer-2 mt-lg-0 mt-md-5 mt-4 pr-lg-5">
             <div class="footer-logo mb-3">
               <h2><a class="navbar-brand" href="index.html">
-                  Dige<span class="sub-logo">b</span>iz</span>
+                <img class="img-fluid" src="./assets/images/companyekodev.png" alt="">
                 </a>
               </h2>
             </div>
-           <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-              ultrices in ligula. Semper at tempufddfel.Pellen tesque libero ut justo,
-              ultrices in ligula.
+            <p>EKODEV COMPANY una agencia digital e independiente encargado del desarrollo de software web y otros servicios informaticos.
             </p>
           </div>
           <div class="col-lg-8 footerw3l-right pl-lg-5">
             <div class="row no-gutters">
               <div class="col-lg-4 col-sm-6 footer-list-29 footer-2 mt-lg-0 mt-md-5 mt-4">
-                <h6 class="footer-title-29">Want to work with us?</h6>
+                <h6 class="footer-title-29">¿Quieres formar parte <br> de nuestro empresa?</h6>
                 <p>Use This Email</p>
-                <p class="mt-2"> <a href="mailto:mail@example.com">mail@example.com</a></p>
+                <p class="mt-2"> <a href="mailto:team.ekodevcompany@gmail.com">team.ekodevcompany@gmail.com</a></p>
               </div>
               <div class="col-lg-4 col-sm-6 footer-list-29 footer-2 mt-lg-0 mt-md-5 mt-4">
-                <h6 class="footer-title-29">Want to say hi?</h6>
+                <h6 class="footer-title-29">¿Necesitas ayuda?
+                </h6>
                 <p>Genenaral Inquires</p>
-                <p class="mt-2"> <a href="mailto:support@example.com">support@example.com</a></p>
+                <p class="mt-2"> <a href="mailto:team.ekodevcompany@gmail.com">support@example.com</a></p>
               </div>
               <div class="col-lg-4 col-sm-6 footer-list-29 footer-2 mt-lg-0 mt-md-5 mt-4">
-                <h6 class="footer-title-29">Find us on social media.</h6>
-                <p class="mt-2">Social Media</p>
+                <h6 class="footer-title-29">Encuéntrenos en <br> las redes sociales.</h6>
+                <p class="mt-2">Nuestras redes sociales</p>
 
                 <div class="main-social-footer-29 mt-2">
-                  <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
-                  <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
-                  <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
+                  <a href="#facebook" class="facebook"><span class="fas fa-facebook"></span></a>
+                  <a href="#twitter" class="twitter"><span class="fas fa-twitter"></span></a>
+                  <a href="#instagram" class="instagram"><span class="fas fa-instagram"></span></a>
                 </div>
               </div>
             </div>
@@ -456,9 +673,9 @@ Author URL: http://w3layouts.com
   <section class="w3l-copyright">
     <div class="container">
       <div class="bottom-copies text-center">
-        <p class=" copy-footer-29">© 2021 Digebiz.Made with <span class="fa fa-heart" aria-hidden="true"></span> love
-          Design by<a href="https://w3layouts.com/" target="_blank">
-            W3layouts</a></p>
+        <p class=" copy-footer-29">© 2021  
+         Creado por EKODEV COMPANY<a href="https://w3layouts.com/" target="_blank">
+          </a></p>
       </div>
     </div>
 
@@ -493,7 +710,37 @@ Author URL: http://w3layouts.com
   <!-- Template JavaScript -->
   <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/theme-change.js"></script>
-  <script src="assets/js/circles.js"></script>
+  <script src="assets/js/owl.carousel.js"></script><!-- owl carousel -->
+  <!-- script for tesimonials carousel slider -->
+  <script>
+    $(document).ready(function () {
+      $("#owl-demo1").owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: false,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          1000: {
+            items: 2,
+            nav: false,
+            loop: false
+          }
+        }
+      })
+    })
+  </script>
+  <!-- //script for tesimonials carousel slider -->
+  <!-- stats number counter-->
+  <script src="assets/js/jquery.waypoints.min.js"></script>
+  <script src="assets/js/jquery.countup.js"></script>
+  <script>
+    $('.counter').countUp();
+  </script>
+  <!-- //stats number counter -->
   <!-- disable body scroll which navbar is in active -->
   <script>
     $(function () {
@@ -530,10 +777,69 @@ Author URL: http://w3layouts.com
         }
       });
     });
+
+    /*  */
+    var mySwiper = new Swiper ('.mySwiper', 
+	{
+    speed:3000,
+		direction: 'horizontal',
+		navigation: 
+		{
+		  nextEl: '.swiper-button-next',
+		  prevEl: '.swiper-button-prev',
+		},
+		pagination: 
+		{
+			el: '.swiper-pagination',
+			dynamicBullets: true,
+		},
+		zoom: true,
+		keyboard: 
+		{
+			enabled: true,
+			onlyInViewport: false,
+		},
+		mousewheel: 
+		{
+			invert: true,
+		},
+    autoplay: 
+    {
+      delay: 2000,
+    },
+    loop: true,
+	}); 
+/*     const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+  autoplay: {
+    delay: 5000,
+  },
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+}); */
+
   </script>
   <!--//MENU-JS-->
   <script src="assets/js/bootstrap.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 
 </html>

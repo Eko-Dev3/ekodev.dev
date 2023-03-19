@@ -1,9 +1,6 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
+
 <!doctype html>
-<html lang="zxx">
+<html lang="ES">
 
 <head>
   <!-- Required meta tags -->
@@ -11,22 +8,53 @@ Author URL: http://w3layouts.com
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="keywords"
     content="Digebiz Responsive web template, Bootstrap Web Templates" />
-  <title>Digebiz Corporate Category Bootstrap Responsive Web Template | Services :: W3layouts</title>
+  <title>NUESTROS SERVICOS::EKODEV COMPANY</title>
   <link href="//fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600;700&display=swap"
     rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.0/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
 </head>
-
+<script>
+  $('[data-fancybox]').fancybox({
+  // Options will go here
+  buttons : [
+    'close'
+  ],
+  wheel : false,
+  transitionEffect: "slide",
+   // thumbs          : false,
+  // hash            : false,
+  loop            : true,
+  // keyboard        : true,
+  toolbar         : false,
+  // animationEffect : false,
+  // arrows          : true,
+  clickContent    : false
+});
+</script>
 <body>
-
+<style>
+  #ekodevlogo img{
+    height: 90px;
+  }
+</style>
   <!--header-->
   <header id="site-header" class="fixed-top">
     <!-- //top header -->
     <div class="container">
       <nav class="navbar navbar-expand-lg stroke px-0 py-lg-0">
-        <h1><a class="navbar-brand" href="index.html">
-            Dige<span class="sub-logo">b</span>iz</span>
+        <h1 id="ekodevlogo">
+          <a class="navbar-brand" href="index.html">
+          <img src="./assets/images/companyekodev.png" alt="">
           </a></h1>
         <!-- if logo is image enable this   
     <a class="navbar-brand" href="#index.html">
@@ -35,27 +63,35 @@ Author URL: http://w3layouts.com
         <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
           data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
           aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+          <span class="navbar-toggler-icon fa fa-solid icon-expand fa-bars"></span>
           <span class="navbar-toggler-icon fa icon-close fa-times"></span>
         </button>
-
+        <style>
+          #active a{
+            font-weight: 1000;
+            text-decoration: underline;
+            
+          }
+        </style>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mx-lg-auto">
+          <ul class="navbar-nav mx-lg-auto" id="navmovil">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="nosotros.html">Ekodev</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="services.html">Services</a>
+            <li class="nav-item" id="active">
+              <a class="nav-link" href="servicios.html">Servicios</a>
             </li>
-           
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="services.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contactos</a>
             </li>
             <!--/search-right-->
-            <li class="nav-item search-right ml-lg-3">
+            <li class="nav-item search-right ml-lg-2">
               <!-- /header-top-inn-->
               <div class="menu-overlay-left">
                 <div class="two-pops">
@@ -105,9 +141,15 @@ Author URL: http://w3layouts.com
           </ul>
           <!--/right-btn-->
           <div class="top-righthny-buttton">
-            <a class="btn btn-style btn-white mr-lg-5" href="contact.html">
-              Get In Touch <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
+            <a class="btn btn-danger mr-lg-5" href="asistente.html">
+              Asistente eko <img src="./assets/images/asistente.png" alt=""> </a>
           </div>
+          <div class="menu-overlay-left">
+            <div class="two-pops">
+              <!-- ASISTENTE VIRUAL -->
+
+            </div>
+           <!--  ASISTENTE VIRTUAL -->
           <!--/right-btn-->
         </div>
         <!-- toggle switch for light and dark theme -->
@@ -129,12 +171,14 @@ Author URL: http://w3layouts.com
     </div>
   </header>
   <!--/header-->
+  <!-- banner section -->
+  
   <!--/breadcrumb-bg-->
   <div class="breadcrumb-bg w3l-inner-page-breadcrumb py-5">
     <div class="container pt-lg-5 pt-md-3 p-lg-4 pb-md-3 my-lg-3">
       <ul class="breadcrumbs-custom-path mt-3 text-center pt-5">
-        <li><a href="index.html">Home</a></li>
-        <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Services </li>
+        <li><a href="index.html">Inicio</a></li>
+        <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> NUESTROS SERVICOS </li>
       </ul>
     </div>
   </div>
@@ -143,16 +187,12 @@ Author URL: http://w3layouts.com
     <div class="container py-lg-5 py-md-4 py-2">
       <div class="row bottom-ab-grids">
         <div class="col-lg-6 bottom-ab-left align-self">
-          <h6 class="title-subhny">What We Do</h6>
-          <h3 class="title-w3l mb-4">25+ Years of Experiences for give you Better Results</h3>
+          <h6 class="title-subhny">LO QUE HACEMOS</h6>
+          <h3 class="title-w3l mb-4">Más de 4 años de experiencia para brindarle mejores resultados</h3>
         </div>
         <div class="col-lg-6 bottom-right-grids">
-          <p class="">Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
-            faucibus orci luctus et ultrices posuere cubilia acere aperiam sequi optio consectetur adipisicing
-            dolor et amet. </p>
-          <p class="mt-3">Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
-            faucibus orci luctus et ultrices posuere cubilia acere aperiam sequi optio consectetur adipisicing
-            dolor et amet. </p>
+          <p class=""> <b>EKODEV “como agencia Independiente, ofrecemos nuestros servicios tanto a pequeñas y medianas empresas al igual que a instituciones gubernamentales y a profesionales o empresarios independientes."</b> </p>
+         
         </div>
       </div>
       <div class="row bottom-ab-grids-imges mt-lg-0 mt-4">
@@ -160,11 +200,10 @@ Author URL: http://w3layouts.com
           <div class="whybox-wrap-grid mb-lg-5 mb-4">
             <img src="assets/images/b1.jpg" alt="" class="radius-image img-fluid">
             <div class="whybox-wrap-grid-inf mt-4">
-              <div class="icon">
-                <span class="fa fa-thumbs-up"></span>
-              </div>
+              
               <div class="info">
-                <h4><a href="#url"> Perfect Strategy</a></h4>
+                <h4><a href="#url">DISEÑO Y DESARROLLO WEB
+                </a></h4>
               </div>
             </div>
             <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit. </p>
@@ -174,11 +213,9 @@ Author URL: http://w3layouts.com
           <div class="whybox-wrap-grid mb-lg-5 mb-4">
             <img src="assets/images/b2.jpg" alt="" class="radius-image img-fluid">
             <div class="whybox-wrap-grid-inf mt-4">
-              <div class="icon">
-                <span class="fa fa-lightbulb-o"></span>
-              </div>
+              
               <div class="info">
-                <h4><a href="#url"> Idea & Analysis</a></h4>
+                <h4><a href="#url"> MARKETING DIGITAL Y PUBLICIDAD</a></h4>
               </div>
             </div>
             <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit. </p>
@@ -192,7 +229,35 @@ Author URL: http://w3layouts.com
                 <span class="fa fa-laptop"></span>
               </div>
               <div class="info">
-                <h4><a href="#url"> Testing & Lunching</a></h4>
+                <h4><a href="#url">DISEÑO GRAFICO</a></h4>
+              </div>
+            </div>
+            <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit. </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 bottom-ab-img mt-lg-5 mt-4">
+          <div class="whybox-wrap-grid mb-lg-5 mb-4">
+            <img src="assets/images/b3.jpg" alt="" class="radius-image img-fluid">
+            <div class="whybox-wrap-grid-inf mt-4">
+              <div class="icon">
+                <span class="fa fa-laptop"></span>
+              </div>
+              <div class="info">
+                <h4><a href="#url">ADMINISTRACION Y MANTENIMIENTO WEB</a></h4>
+              </div>
+            </div>
+            <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit. </p>
+          </div>
+        </div>
+         <div class="col-lg-4 col-md-6 bottom-ab-img mt-lg-5 mt-4">
+          <div class="whybox-wrap-grid mb-lg-5 mb-4">
+            <img src="assets/images/b3.jpg" alt="" class="radius-image img-fluid">
+            <div class="whybox-wrap-grid-inf mt-4">
+              <div class="icon">
+                <span class="fa fa-laptop"></span>
+              </div>
+              <div class="info">
+                <h4><a href="#url">CONSULTORIA Y ASESORAMIENTO INFORMATICO</a></h4>
               </div>
             </div>
             <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit. </p>
@@ -434,7 +499,9 @@ Author URL: http://w3layouts.com
     </div>
   </section>
   <!-- //w3l-pricing-->
-  <!--/footer-->
+
+  
+  <!-- footer -->
   <section class="w3l-footer-29-main">
     <div class="footer-29 py-5">
       <div class="container py-lg-3">
@@ -442,35 +509,34 @@ Author URL: http://w3layouts.com
           <div class="col-lg-4 footer-list-29 footer-2 mt-lg-0 mt-md-5 mt-4 pr-lg-5">
             <div class="footer-logo mb-3">
               <h2><a class="navbar-brand" href="index.html">
-                  Dige<span class="sub-logo">b</span>iz</span>
+                <img class="img-fluid" src="./assets/images/companyekodev.png" alt="">
                 </a>
               </h2>
             </div>
-           <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-              ultrices in ligula. Semper at tempufddfel.Pellen tesque libero ut justo,
-              ultrices in ligula.
+            <p>EKODEV COMPANY una agencia digital e independiente encargado del desarrollo de software web y otros servicios informaticos.
             </p>
           </div>
           <div class="col-lg-8 footerw3l-right pl-lg-5">
             <div class="row no-gutters">
               <div class="col-lg-4 col-sm-6 footer-list-29 footer-2 mt-lg-0 mt-md-5 mt-4">
-                <h6 class="footer-title-29">Want to work with us?</h6>
+                <h6 class="footer-title-29">¿Quieres formar parte <br> de nuestro empresa?</h6>
                 <p>Use This Email</p>
-                <p class="mt-2"> <a href="mailto:mail@example.com">mail@example.com</a></p>
+                <p class="mt-2"> <a href="mailto:team.ekodevcompany@gmail.com">team.ekodevcompany@gmail.com</a></p>
               </div>
               <div class="col-lg-4 col-sm-6 footer-list-29 footer-2 mt-lg-0 mt-md-5 mt-4">
-                <h6 class="footer-title-29">Want to say hi?</h6>
+                <h6 class="footer-title-29">¿Necesitas ayuda?
+                </h6>
                 <p>Genenaral Inquires</p>
-                <p class="mt-2"> <a href="mailto:support@example.com">support@example.com</a></p>
+                <p class="mt-2"> <a href="mailto:team.ekodevcompany@gmail.com">support@example.com</a></p>
               </div>
               <div class="col-lg-4 col-sm-6 footer-list-29 footer-2 mt-lg-0 mt-md-5 mt-4">
-                <h6 class="footer-title-29">Find us on social media.</h6>
-                <p class="mt-2">Social Media</p>
+                <h6 class="footer-title-29">Encuéntrenos en <br> las redes sociales.</h6>
+                <p class="mt-2">Nuestras redes sociales</p>
 
                 <div class="main-social-footer-29 mt-2">
-                  <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
-                  <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
-                  <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
+                  <a href="#facebook" class="facebook"><span class="fas fa-facebook"></span></a>
+                  <a href="#twitter" class="twitter"><span class="fas fa-twitter"></span></a>
+                  <a href="#instagram" class="instagram"><span class="fas fa-instagram"></span></a>
                 </div>
               </div>
             </div>
@@ -511,9 +577,9 @@ Author URL: http://w3layouts.com
   <section class="w3l-copyright">
     <div class="container">
       <div class="bottom-copies text-center">
-        <p class=" copy-footer-29">© 2021 Digebiz.Made with <span class="fa fa-heart" aria-hidden="true"></span> love
-          Design by<a href="https://w3layouts.com/" target="_blank">
-            W3layouts</a></p>
+        <p class=" copy-footer-29">© 2021  
+         Creado por EKODEV COMPANY<a href="https://w3layouts.com/" target="_blank">
+          </a></p>
       </div>
     </div>
 
@@ -548,6 +614,37 @@ Author URL: http://w3layouts.com
   <!-- Template JavaScript -->
   <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/theme-change.js"></script>
+  <script src="assets/js/owl.carousel.js"></script><!-- owl carousel -->
+  <!-- script for tesimonials carousel slider -->
+  <script>
+    $(document).ready(function () {
+      $("#owl-demo1").owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: false,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          1000: {
+            items: 2,
+            nav: false,
+            loop: false
+          }
+        }
+      })
+    })
+  </script>
+  <!-- //script for tesimonials carousel slider -->
+  <!-- stats number counter-->
+  <script src="assets/js/jquery.waypoints.min.js"></script>
+  <script src="assets/js/jquery.countup.js"></script>
+  <script>
+    $('.counter').countUp();
+  </script>
+  <!-- //stats number counter -->
   <!-- disable body scroll which navbar is in active -->
   <script>
     $(function () {
@@ -584,9 +681,69 @@ Author URL: http://w3layouts.com
         }
       });
     });
+
+    /*  */
+    var mySwiper = new Swiper ('.mySwiper', 
+	{
+    speed:3000,
+		direction: 'horizontal',
+		navigation: 
+		{
+		  nextEl: '.swiper-button-next',
+		  prevEl: '.swiper-button-prev',
+		},
+		pagination: 
+		{
+			el: '.swiper-pagination',
+			dynamicBullets: true,
+		},
+		zoom: true,
+		keyboard: 
+		{
+			enabled: true,
+			onlyInViewport: false,
+		},
+		mousewheel: 
+		{
+			invert: true,
+		},
+    autoplay: 
+    {
+      delay: 2000,
+    },
+    loop: true,
+	}); 
+/*     const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+  autoplay: {
+    delay: 5000,
+  },
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+}); */
+
   </script>
   <!--//MENU-JS-->
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 
 </html>

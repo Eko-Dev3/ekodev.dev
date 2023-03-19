@@ -17878,7 +17878,8 @@ ul.blog-cat li a span.fa {
 }
 
 .w3l-footer-29-main a span.fa:hover {
-  color: var(--primary-color);
+  background: rgb(3,6,15);
+background: linear-gradient(0deg, rgba(3,6,15,1) 0%, rgba(2,11,40,1) 95%);
   border: 2px solid var(--primary-color);
 }
 
